@@ -1,6 +1,7 @@
 use crate::error::Error;
 use async_trait::async_trait;
 
+pub mod models;
 pub mod plane_phd_manufacturers;
 
 #[async_trait]
