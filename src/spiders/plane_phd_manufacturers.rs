@@ -8,7 +8,7 @@ use std::time::Duration;
 // use scraper::{Html, Selector};
 use select::{
   document::Document,
-  predicate::{Class, Predicate},
+  predicate::{Class, Name, Predicate},
 };
 
 pub struct ManufacturersSpider {
@@ -60,20 +60,19 @@ impl super::Spider for ManufacturersSpider {
 
     for node in document.find(Class("pp-card").descendant(Class("list-group-item"))) {
       println!("{:?}", &node.attr("href").unwrap().to_string());
-      let plane = ManufacturerItem {
+      items.push(ManufacturerItem {
         name: node.text(),
         link: node.attr("href").unwrap().to_string(),
-      };
-      items.push(plane);
+      });
     }
-
-    println!("{:?}", items);
 
     Ok((items, Vec::new()))
   }
 
   async fn process(&self, item: Self::Item) -> Result<(), Error> {
-    println!("{}", item.name);
+    println!("{:?}", item.name);
+    println!("{:?}", item.link);
+    println!("\n");
 
     Ok(())
   }
