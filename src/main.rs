@@ -47,7 +47,11 @@ async fn main() -> Result<(), anyhow::Error> {
       "mod" => {
         let spider = Arc::new(spiders::models::ModelsSpider::new());
         crawler.run(spider).await;
-      }
+      },
+      "p" => {
+        let spider = Arc::new(spiders::plane::PlanesSpider::new());
+        crawler.run(spider).await;
+      },
       _ => return Err(Error::InvalidSpider(spider_name.to_string()).into()),
     };
   }
