@@ -13,8 +13,16 @@ A web scraper to collect a list of aircraft, manufacturers, powerplants, and per
 ## Usage
 
 ```bash
+# List all available spiders
 cargo run -- spiders
+# Manufacturer Spider
 cargo run -- run --spider m
+# Model Spider
+cargo run -- run --spider mod
+# Plane Spider
+cargo run -- run --spider p
+# Utility - Directory Util
+cargo run -- run --spider d
 ```
 
 ## fmt
@@ -26,7 +34,8 @@ cargo fmt
 <!-- CONTACT -->
 ## Contact
 
-**Ross Todd**
+### Ross Todd
+
 <!-- PROJECT SHIELDS -->
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Email][email-shield]][email-url]
