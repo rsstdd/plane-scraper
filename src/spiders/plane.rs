@@ -87,28 +87,45 @@ impl super::Spider for PlanesSpider {
     let title_selector = Selector::parse("h3:first-of-type").unwrap();
     let title = document.select(&title_selector).next().unwrap().inner_html();
 
-    let dl_selector = Selector::parse("dl.dl-horizontal.dl-details.dl-skinny").unwrap();
-    let dl_fragment = document.select(&dl_selector).next().unwrap();
+    let dl_selector = Selector::parse("div dl").unwrap();
+    let dl = document.select(&dl_selector).next().unwrap();
+    let dt_selector = Selector::parse(
+      "#perforance_top > div > div > div > dl > dt > p, #perforance_top > div > div > div > dl > dd > p",
+    )
+    .unwrap();
 
-    let dt_dd_selector = Selector::parse("dt p, dd p").unwrap();
+    println!("\nTITLE: {:#?}\n", title);
 
-    for element in dl_fragment.select(&dt_dd_selector) {
-      let dt = element.inner_html();
-      println!("==> {:#?} ", dt);
+    for el in dl.select(&dt_selector) {
+      let text = el.inner_html();
+      println!("==> {:#?} ", text);
     }
 
-    // for element in dl_fragment.next().select(&dt_dd_selector) {
-    //   let dd = element.inner_html();
-    //   println!("dd: {:#?}", dd);
-    // }
+    println!("\nWEIGHTS");
 
-    println!("Title: {:#?}", title);
+    let weights_selector =
+      Selector::parse("#perforance_top > div:nth-child(1) > div:nth-child(1) > div > dl:nth-child(7)").unwrap();
+    let weights = document.select(&weights_selector).next().unwrap();
+    for el in weights.select(&dt_selector).into_iter() {
+      let text = el.inner_html();
+      println!("==> {:#?}", text);
+    }
+
+    println!("\nENGINE");
+
+    let engine_selector = Selector::parse("#perforance_top > div:nth-child(1) > div:nth-child(3) > div > dl").unwrap();
+    let engine = document.select(&engine_selector).next().unwrap();
+    for el in engine.select(&dt_selector).into_iter() {
+      let text = el.inner_html();
+      println!("==> {:#?}", text);
+    }
+
+    println!("====");
+
     Ok((_items, Vec::new()))
   }
 
   async fn process(&self, _item: Self::Item) -> Result<(), Error> {
-    // println!("{}", item.name);
-    // println!("{}", item.link);
     println!("\n");
     println!("\n");
 
