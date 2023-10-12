@@ -20,15 +20,3 @@ impl std::convert::From<reqwest::Error> for Error {
     Error::Reqwest(err.to_string())
   }
 }
-
-impl std::convert::From<fantoccini::error::CmdError> for Error {
-  fn from(err: fantoccini::error::CmdError) -> Self {
-    Error::WebDriver(err.to_string())
-  }
-}
-
-impl std::convert::From<fantoccini::error::NewSessionError> for Error {
-  fn from(err: fantoccini::error::NewSessionError) -> Self {
-    Error::WebDriver(err.to_string())
-  }
-}
