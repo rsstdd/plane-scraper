@@ -1,15 +1,20 @@
+#![allow(unused)]
+
 use clap::{Arg, Command};
 use std::{env, sync::Arc, time::Duration};
 
+use crate::crawler::Crawler;
+use crate::prelude::*;
+use std::fs::read_dir;
+
 mod crawler;
 mod error;
+mod prelude;
 mod spiders;
-
-use crate::crawler::Crawler;
-use error::Error;
+mod utils;
 
 #[tokio::main]
-async fn main() -> Result<(), anyhow::Error> {
+async fn main() -> Result<()> {
   env::set_var("RUST_LOG", "info,crawler=debug");
   env_logger::init();
 
@@ -51,6 +56,12 @@ async fn main() -> Result<(), anyhow::Error> {
       "p" => {
         let spider = Arc::new(spiders::plane::PlanesSpider::new());
         crawler.run(spider).await;
+      },
+      "d" => {
+        for entry in read_dir("./").unwrap().filter_map(|e| e.ok()) {
+          let entry: String = W(&entry).try_into()?;
+          println!("{entry}");
+        }
       },
       _ => return Err(Error::InvalidSpider(spider_name.to_string()).into()),
     };
