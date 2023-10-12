@@ -94,7 +94,7 @@ impl super::Spider for PlanesSpider {
 
     for element in dl_fragment.select(&dt_dd_selector) {
       let dt = element.inner_html();
-      println!("==> {:#?}", dt);
+      println!("==> {:#?} ", dt);
     }
 
     // for element in dl_fragment.next().select(&dt_dd_selector) {
