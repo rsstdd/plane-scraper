@@ -2,6 +2,9 @@ use thiserror::Error;
 
 #[derive(Error, Debug, Clone)]
 pub enum Error {
+  /// For starter, to remove as code matures.
+  #[error("Generic error: {0}")]
+  Generic(String),
   #[error("Internal")]
   Internal(String),
   #[error("Spider is not valid: {0}")]
