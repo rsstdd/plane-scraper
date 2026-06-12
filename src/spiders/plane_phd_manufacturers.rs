@@ -1,33 +1,25 @@
 // https://planephd.com/wizard/?modeltype=PistonSingle&min_year=1900&required_seats_min=4&ownership_cost_p_year_max=50000&purchase_price_max=1000000&min_speed=120&annual_hrs=100
 // https://planephd.com/wizard/manufacturers/
-use crate::error::Error;
+use crate::{error::Error, fetcher::Fetcher, io::ManufacturerStore};
 use async_trait::async_trait;
-use reqwest::{Client, header};
-use serde::{Deserialize, Serialize};
-use std::time::Duration;
 use select::{
   document::Document,
   predicate::{Class, Predicate},
 };
+use serde::{Deserialize, Serialize};
+use std::sync::Arc;
 
 pub struct ManufacturersSpider {
-  http_client: Client,
+  fetcher: Arc<Fetcher>,
+  manufacturer_store: ManufacturerStore,
 }
 
 impl ManufacturersSpider {
-  pub fn new() -> Self {
-    let http_timeout = Duration::from_secs(6);
-    let mut headers = header::HeaderMap::new();
-    headers.insert("Accept", header::HeaderValue::from_static("application/json"));
-
-    let http_client = Client::builder()
-      .timeout(http_timeout)
-      .default_headers(headers)
-      .user_agent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0")
-      .build()
-      .expect("spiders/github: Building HTTP client");
-
-    ManufacturersSpider { http_client }
+  pub fn new(fetcher: Arc<Fetcher>, manufacturer_store: ManufacturerStore) -> Self {
+    Self {
+      fetcher,
+      manufacturer_store,
+    }
   }
 }
 
@@ -50,18 +42,29 @@ impl super::Spider for ManufacturersSpider {
   }
 
   async fn scrape(&self, url: String) -> Result<(Vec<ManufacturerItem>, Vec<String>), Error> {
-    log::info!("visiting: {}", url);
-    let res = self.http_client.get(&url).send().await?;
-    let text = res.text().await?;
+    log::info!("visiting: {url}");
 
-    let mut items = Vec::new();
+    let text = self.fetcher.get_text(&url).await?;
     let document = Document::from(text.as_str());
 
+    let mut items = Vec::new();
+
     for node in document.find(Class("pp-card").descendant(Class("list-group-item"))) {
-      println!("{:?}", &node.attr("href").unwrap().to_string());
+      let Some(link) = node.attr("href") else {
+        log::debug!("skipping manufacturer node without href");
+        continue;
+      };
+
+      let name = node.text().trim().to_string();
+
+      if name.is_empty() {
+        log::debug!("skipping manufacturer node with empty name");
+        continue;
+      }
+
       items.push(ManufacturerItem {
-        name: node.text(),
-        link: node.attr("href").unwrap().to_string(),
+        name,
+        link: link.to_string(),
       });
     }
 
@@ -69,10 +72,8 @@ impl super::Spider for ManufacturersSpider {
   }
 
   async fn process(&self, item: Self::Item) -> Result<(), Error> {
-    println!("{:?}", item.name);
-    println!("{:?}", item.link);
-    println!("\n");
+    log::debug!("saving manufacturer: {} -> {}", item.name, item.link);
 
-    Ok(())
+    self.manufacturer_store.insert(item.name, item.link).await
   }
 }

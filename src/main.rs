@@ -2,20 +2,22 @@ use clap::{Arg, Command};
 use std::{fs::read_dir, sync::Arc, time::Duration};
 
 use crate::crawler::Crawler;
+use crate::fetcher::{Fetcher, FetcherConfig};
+use crate::io::ManufacturerStore;
 use crate::prelude::*;
 
 mod crawler;
 mod error;
+mod fetcher;
+mod io;
 mod prelude;
 mod spiders;
 mod utils;
 
 #[tokio::main]
 async fn main() -> Result<()> {
-  env_logger::Builder::from_env(
-    env_logger::Env::default().default_filter_or("info,crawler=debug"),
-  )
-  .init();
+  env_logger::Builder::from_env(env_logger::Env::default().default_filter_or("info,crawler=debug"))
+    .init();
 
   let cli = Command::new(clap::crate_name!())
     .version(clap::crate_version!())
@@ -29,14 +31,19 @@ async fn main() -> Result<()> {
           .help("The spider to run")
           .value_name("SPIDER")
           .value_parser(["m", "mod", "p", "d"])
-          .required(true)
+          .required(true),
       ),
     )
     .arg_required_else_help(true)
     .get_matches();
 
   if cli.subcommand_matches("spiders").is_some() {
-    let spider_names = ["m", "mod", "p", "d"];
+    let spider_names = [
+      "m - ManufacturersSpider",
+      "mod - ModelsSpider",
+      "p - PlanesSpider",
+      "d",
+    ];
 
     for name in spider_names {
       println!("{name}");
@@ -47,10 +54,16 @@ async fn main() -> Result<()> {
       .expect("required by clap");
 
     let crawler = Crawler::new(Duration::from_millis(200), 2, 500);
+    let fetcher = Arc::new(Fetcher::new(FetcherConfig::from_env())?);
+    let manufacturer_store = ManufacturerStore::load("data/manufacturers.json").await?;
 
     match spider_name.as_str() {
       "m" => {
-        let spider = Arc::new(spiders::plane_phd_manufacturers::ManufacturersSpider::new());
+        let spider = Arc::new(spiders::plane_phd_manufacturers::ManufacturersSpider::new(
+          fetcher.clone(),
+          manufacturer_store.clone(),
+        ));
+
         crawler.run(spider).await;
       }
       "mod" => {

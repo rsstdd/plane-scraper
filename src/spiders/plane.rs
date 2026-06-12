@@ -13,7 +13,10 @@ impl PlanesSpider {
   pub fn new() -> Self {
     let http_timeout = Duration::from_secs(6);
     let mut headers = header::HeaderMap::new();
-    headers.insert("Accept", header::HeaderValue::from_static("application/json"));
+    headers.insert(
+      "Accept",
+      header::HeaderValue::from_static("application/json"),
+    );
 
     let http_client = Client::builder()
       .timeout(http_timeout)
@@ -85,7 +88,11 @@ impl super::Spider for PlanesSpider {
     let document = Html::parse_document(&text.as_str());
 
     let title_selector = Selector::parse("h3:first-of-type").unwrap();
-    let title = document.select(&title_selector).next().unwrap().inner_html();
+    let title = document
+      .select(&title_selector)
+      .next()
+      .unwrap()
+      .inner_html();
 
     let dl_selector = Selector::parse("div dl").unwrap();
     let dl = document.select(&dl_selector).next().unwrap();
@@ -103,8 +110,10 @@ impl super::Spider for PlanesSpider {
 
     println!("\nWEIGHTS");
 
-    let weights_selector =
-      Selector::parse("#perforance_top > div:nth-child(1) > div:nth-child(1) > div > dl:nth-child(7)").unwrap();
+    let weights_selector = Selector::parse(
+      "#perforance_top > div:nth-child(1) > div:nth-child(1) > div > dl:nth-child(7)",
+    )
+    .unwrap();
     let weights = document.select(&weights_selector).next().unwrap();
     for el in weights.select(&dt_selector).into_iter() {
       let text = el.inner_html();
@@ -113,7 +122,8 @@ impl super::Spider for PlanesSpider {
 
     println!("\nENGINE");
 
-    let engine_selector = Selector::parse("#perforance_top > div:nth-child(1) > div:nth-child(3) > div > dl").unwrap();
+    let engine_selector =
+      Selector::parse("#perforance_top > div:nth-child(1) > div:nth-child(3) > div > dl").unwrap();
     let engine = document.select(&engine_selector).next().unwrap();
     for el in engine.select(&dt_selector).into_iter() {
       let text = el.inner_html();

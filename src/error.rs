@@ -1,6 +1,5 @@
 use thiserror::Error;
 
-
 #[derive(Error, Debug)]
 pub enum Error {
   /// Temporary fallback while the codebase matures.
@@ -18,6 +17,9 @@ pub enum Error {
 
   #[error("I/O operation failed: {0}")]
   Io(#[from] std::io::Error),
+
+  #[error("JSON operation failed: {0}")]
+  Json(#[from] serde_json::Error),
 
   #[error("WebDriver: {0}")]
   WebDriver(String),

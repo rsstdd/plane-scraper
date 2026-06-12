@@ -1,12 +1,12 @@
 use crate::error::Error;
 use async_trait::async_trait;
 use reqwest::{Client, header};
-use serde::{Deserialize, Serialize};
-use std::time::Duration;
 use select::{
   document::Document,
   predicate::{Class, Name, Predicate},
 };
+use serde::{Deserialize, Serialize};
+use std::time::Duration;
 
 pub struct ModelsSpider {
   http_client: Client,
@@ -16,7 +16,10 @@ impl ModelsSpider {
   pub fn new() -> Self {
     let http_timeout = Duration::from_secs(6);
     let mut headers = header::HeaderMap::new();
-    headers.insert("Accept", header::HeaderValue::from_static("application/json"));
+    headers.insert(
+      "Accept",
+      header::HeaderValue::from_static("application/json"),
+    );
 
     let http_client = Client::builder()
       .timeout(http_timeout)
@@ -58,6 +61,7 @@ impl super::Spider for ModelsSpider {
     for node in document.find(Class("modal_content").descendant(Name("a"))) {
       let name = node.text().trim().to_string();
       let link = node.attr("href").unwrap().trim().to_string();
+      println!("{}", name);
       items.push(ModelItem { name, link });
     }
 

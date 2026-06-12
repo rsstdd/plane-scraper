@@ -46,7 +46,12 @@ impl Crawler {
       let _ = urls_to_visit_tx.send(url).await;
     }
 
-    self.launch_processors(processing_concurrency, spider.clone(), items_rx, barrier.clone());
+    self.launch_processors(
+      processing_concurrency,
+      spider.clone(),
+      items_rx,
+      barrier.clone(),
+    );
 
     self.launch_scrapers(
       crawling_concurrency,
