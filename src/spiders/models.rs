@@ -1,9 +1,8 @@
 use crate::error::Error;
 use async_trait::async_trait;
-use reqwest::{header, Client};
+use reqwest::{Client, header};
 use serde::{Deserialize, Serialize};
 use std::time::Duration;
-// use scraper::{Html, Selector};
 use select::{
   document::Document,
   predicate::{Class, Name, Predicate},

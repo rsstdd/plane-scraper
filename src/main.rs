@@ -1,11 +1,8 @@
-#![allow(unused)]
-
 use clap::{Arg, Command};
-use std::{env, sync::Arc, time::Duration};
+use std::{fs::read_dir, sync::Arc, time::Duration};
 
 use crate::crawler::Crawler;
 use crate::prelude::*;
-use std::fs::read_dir;
 
 mod crawler;
 mod error;
@@ -15,8 +12,10 @@ mod utils;
 
 #[tokio::main]
 async fn main() -> Result<()> {
-  env::set_var("RUST_LOG", "info,crawler=debug");
-  env_logger::init();
+  env_logger::Builder::from_env(
+    env_logger::Env::default().default_filter_or("info,crawler=debug"),
+  )
+  .init();
 
   let cli = Command::new(clap::crate_name!())
     .version(clap::crate_version!())
@@ -28,41 +27,46 @@ async fn main() -> Result<()> {
           .short('s')
           .long("spider")
           .help("The spider to run")
-          .takes_value(true)
-          .required(true),
+          .value_name("SPIDER")
+          .value_parser(["m", "mod", "p", "d"])
+          .required(true)
       ),
     )
     .arg_required_else_help(true)
     .get_matches();
 
-  if let Some(_) = cli.subcommand_matches("spiders") {
-    let spider_names = vec!["m"];
+  if cli.subcommand_matches("spiders").is_some() {
+    let spider_names = ["m", "mod", "p", "d"];
+
     for name in spider_names {
-      println!("{}", name);
+      println!("{name}");
     }
   } else if let Some(matches) = cli.subcommand_matches("run") {
-    let spider_name = matches.value_of("spider").unwrap();
+    let spider_name = matches
+      .get_one::<String>("spider")
+      .expect("required by clap");
+
     let crawler = Crawler::new(Duration::from_millis(200), 2, 500);
 
-    match spider_name {
+    match spider_name.as_str() {
       "m" => {
         let spider = Arc::new(spiders::plane_phd_manufacturers::ManufacturersSpider::new());
         crawler.run(spider).await;
-      },
+      }
       "mod" => {
         let spider = Arc::new(spiders::models::ModelsSpider::new());
         crawler.run(spider).await;
-      },
+      }
       "p" => {
         let spider = Arc::new(spiders::plane::PlanesSpider::new());
         crawler.run(spider).await;
-      },
+      }
       "d" => {
-        for entry in read_dir("./").unwrap().filter_map(|e| e.ok()) {
+        for entry in read_dir("./")?.filter_map(|entry| entry.ok()) {
           let entry: String = W(&entry).try_into()?;
           println!("{entry}");
         }
-      },
+      }
       _ => return Err(Error::InvalidSpider(spider_name.to_string()).into()),
     };
   }

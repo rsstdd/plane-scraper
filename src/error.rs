@@ -1,22 +1,24 @@
 use thiserror::Error;
 
-#[derive(Error, Debug, Clone)]
+
+#[derive(Error, Debug)]
 pub enum Error {
-  /// For starter, to remove as code matures.
+  /// Temporary fallback while the codebase matures.
   #[error("Generic error: {0}")]
   Generic(String),
-  #[error("Internal")]
+
+  #[error("Internal error: {0}")]
   Internal(String),
-  #[error("Spider is not valid: {0}")]
+
+  #[error("Invalid spider: {0}")]
   InvalidSpider(String),
-  #[error("Reqwest: {0}")]
-  Reqwest(String),
+
+  #[error("Request failed: {0}")]
+  Reqwest(#[from] reqwest::Error),
+
+  #[error("I/O operation failed: {0}")]
+  Io(#[from] std::io::Error),
+
   #[error("WebDriver: {0}")]
   WebDriver(String),
-}
-
-impl std::convert::From<reqwest::Error> for Error {
-  fn from(err: reqwest::Error) -> Self {
-    Error::Reqwest(err.to_string())
-  }
 }

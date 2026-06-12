@@ -1,6 +1,6 @@
 use crate::error::Error;
 use async_trait::async_trait;
-use reqwest::{header, Client};
+use reqwest::{Client, header};
 use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
 use std::time::Duration;
@@ -47,7 +47,7 @@ pub struct PlaneItem {
   description: String,
   link: String,
   horsepower: String,
-  curise_speed: String,
+  cruise_speed: String,
   range: String,
   fuel_burn_75: String,
   stall_speed: String,

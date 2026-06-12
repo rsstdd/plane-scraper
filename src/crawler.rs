@@ -3,13 +3,13 @@ use futures::stream::StreamExt;
 use std::{
   collections::HashSet,
   sync::{
-    atomic::{AtomicUsize, Ordering},
     Arc,
+    atomic::{AtomicUsize, Ordering},
   },
   time::Duration,
 };
 use tokio::{
-  sync::{mpsc, Barrier},
+  sync::{Barrier, mpsc},
   time::sleep,
 };
 
