@@ -1,10 +1,13 @@
-use clap::{Arg, Command};
-use std::{fs::read_dir, sync::Arc, time::Duration};
+use clap::{Parser, Subcommand};
+use std::{fs::read_dir, path::PathBuf, sync::Arc, time::Duration};
 
-use crate::crawler::Crawler;
-use crate::fetcher::{Fetcher, FetcherConfig};
-use crate::io::ManufacturerStore;
-use crate::prelude::*;
+use crate::{
+  crawler::Crawler,
+  fetcher::{Fetcher, FetcherConfig},
+  io::{AircraftStore, ManufacturerStore, PlaneStore},
+  prelude::*,
+  spiders::Spider,
+};
 
 mod crawler;
 mod error;
@@ -14,75 +17,160 @@ mod prelude;
 mod spiders;
 mod utils;
 
+#[derive(Debug, Parser)]
+#[command(name = clap::crate_name!())]
+#[command(version = clap::crate_version!())]
+#[command(about = clap::crate_description!())]
+struct Cli {
+  #[command(subcommand)]
+  command: CliCommand,
+}
+
+#[derive(Debug, Subcommand)]
+enum CliCommand {
+  /// List all spiders
+  Spiders,
+
+  /// Run a spider
+  Run(RunConfig),
+}
+
+#[derive(Debug, Parser)]
+struct RunConfig {
+  /// The spider to run
+  #[arg(short, long, value_parser = ["m", "mod", "p", "d"])]
+  spider: String,
+
+  /// Delay between crawl operations in milliseconds
+  #[arg(long, default_value_t = 1000)]
+  delay_ms: u64,
+
+  /// Number of concurrent page crawlers
+  #[arg(long, default_value_t = 1)]
+  crawl_concurrency: usize,
+
+  /// Number of concurrent item processors
+  #[arg(long, default_value_t = 32)]
+  process_concurrency: usize,
+
+  /// JSON file containing manufacturer name -> manufacturer URL path
+  #[arg(long, default_value = "data/manufacturers.json")]
+  manufacturers_file: PathBuf,
+
+  /// JSON file containing manufacturer -> aircraft name -> aircraft URL path
+  #[arg(long, default_value = "data/aircraft.json")]
+  aircraft_file: PathBuf,
+
+  /// JSON file containing full aircraft detail records
+  #[arg(long, default_value = "data/planes.json")]
+  planes_file: PathBuf,
+}
+
 #[tokio::main]
 async fn main() -> Result<()> {
   env_logger::Builder::from_env(env_logger::Env::default().default_filter_or("info,crawler=debug"))
     .init();
 
-  let cli = Command::new(clap::crate_name!())
-    .version(clap::crate_version!())
-    .about(clap::crate_description!())
-    .subcommand(Command::new("spiders").about("List all spiders"))
-    .subcommand(
-      Command::new("run").about("Run a spider").arg(
-        Arg::new("spider")
-          .short('s')
-          .long("spider")
-          .help("The spider to run")
-          .value_name("SPIDER")
-          .value_parser(["m", "mod", "p", "d"])
-          .required(true),
-      ),
-    )
-    .arg_required_else_help(true)
-    .get_matches();
+  let cli = Cli::parse();
 
-  if cli.subcommand_matches("spiders").is_some() {
-    let spider_names = [
-      "m - ManufacturersSpider",
-      "mod - ModelsSpider",
-      "p - PlanesSpider",
-      "d",
-    ];
-
-    for name in spider_names {
-      println!("{name}");
-    }
-  } else if let Some(matches) = cli.subcommand_matches("run") {
-    let spider_name = matches
-      .get_one::<String>("spider")
-      .expect("required by clap");
-
-    let crawler = Crawler::new(Duration::from_millis(200), 2, 500);
-    let fetcher = Arc::new(Fetcher::new(FetcherConfig::from_env())?);
-    let manufacturer_store = ManufacturerStore::load("data/manufacturers.json").await?;
-
-    match spider_name.as_str() {
-      "m" => {
-        let spider = Arc::new(spiders::plane_phd_manufacturers::ManufacturersSpider::new(
-          fetcher.clone(),
-          manufacturer_store.clone(),
-        ));
-
-        crawler.run(spider).await;
-      }
-      "mod" => {
-        let spider = Arc::new(spiders::models::ModelsSpider::new());
-        crawler.run(spider).await;
-      }
-      "p" => {
-        let spider = Arc::new(spiders::plane::PlanesSpider::new());
-        crawler.run(spider).await;
-      }
-      "d" => {
-        for entry in read_dir("./")?.filter_map(|entry| entry.ok()) {
-          let entry: String = W(&entry).try_into()?;
-          println!("{entry}");
-        }
-      }
-      _ => return Err(Error::InvalidSpider(spider_name.to_string()).into()),
-    };
+  match cli.command {
+    CliCommand::Spiders => list_spiders(),
+    CliCommand::Run(config) => run_spider(config).await?,
   }
 
   Ok(())
 }
+
+fn list_spiders() {
+  let spider_names = [
+    "m - ManufacturersSpider",
+    "mod - ModelsSpider",
+    "p - PlanesSpider",
+    "d - Debug directory listing",
+  ];
+
+  for name in spider_names {
+    println!("{name}");
+  }
+}
+
+async fn run_spider(config: RunConfig) -> Result<()> {
+  let crawler = Crawler::new(
+    Duration::from_millis(config.delay_ms),
+    config.crawl_concurrency,
+    config.process_concurrency,
+  );
+
+  log::info!(
+    "crawler config: delay_ms={}, crawl_concurrency={}, process_concurrency={}",
+    config.delay_ms,
+    config.crawl_concurrency,
+    config.process_concurrency
+  );
+
+  let fetcher = Arc::new(Fetcher::new(FetcherConfig::from_env())?);
+
+  let manufacturer_store = ManufacturerStore::load(config.manufacturers_file).await?;
+  let aircraft_store = AircraftStore::load(config.aircraft_file).await?;
+  let planes_store = PlaneStore::load(config.planes_file).await?;
+
+  match config.spider.as_str() {
+    "m" => {
+      let spider = Arc::new(spiders::plane_phd_manufacturers::ManufacturersSpider::new(
+        fetcher.clone(),
+        manufacturer_store.clone(),
+      ));
+
+      log::info!("running spider: {}", spider.name());
+      crawler.run(spider).await;
+    }
+
+    "mod" => {
+      let manufacturers = manufacturer_store.snapshot().await;
+
+      let spider = Arc::new(spiders::models::ModelsSpider::new(
+        fetcher.clone(),
+        aircraft_store.clone(),
+        manufacturers,
+      ));
+
+      log::info!("running spider: {}", spider.name());
+      crawler.run(spider).await;
+    }
+
+    "p" => {
+      let aircraft = aircraft_store.snapshot().await;
+      let existing_planes = planes_store.snapshot().await;
+
+      let spider = Arc::new(spiders::plane::PlanesSpider::new(
+        fetcher.clone(),
+        planes_store.clone(),
+        aircraft,
+        existing_planes,
+      ));
+
+      log::info!("running spider: {}", spider.name());
+      crawler.run(spider).await;
+    }
+
+    "d" => {
+      for entry in read_dir("./")? {
+        let entry = entry?;
+        println!("{}", entry.path().display());
+      }
+    }
+
+    _ => return Err(Error::InvalidSpider(config.spider)),
+  }
+
+  Ok(())
+}
+
+//
+// cargo run -- run \
+// --spider mod \
+// --delay-ms 1000 \
+// --crawl-concurrency 1 \
+// --process-concurrency 32 \
+// --manufacturers-file data/manufacturers.json \
+// --aircraft-file data/aircraft.json
