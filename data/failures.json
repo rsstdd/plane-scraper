@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://planephd.com/advertisement/mg_aggregator/188/CESSNA-206-for-sale",
+    "stage": "scrape",
+    "error": "Internal error: neither the legacy nor the /research layout produced any specification; the page may be blocked or changed again: https://planephd.com/advertisement/mg_aggregator/188/CESSNA-206-for-sale"
+  },
+  {
+    "url": "https://www.cessnaflyer.org/cessna-singles/cessna-205-206-207.html",
+    "stage": "scrape",
+    "error": "Internal error: neither the legacy nor the /research layout produced any specification; the page may be blocked or changed again: https://www.cessnaflyer.org/cessna-singles/cessna-205-206-207.html"
+  },
+  {
+    "url": "https://www.google.com/url?q=https://www.cessnaflyer.org/cessna-singles/cessna-180-185/item/78-the-180-and-185-skywagon.html&sa=D&source=editors&ust=1638297838743000&usg=AOvVaw0pzmd6UFY38ZAIHF4acZqO",
+    "stage": "scrape",
+    "error": "Internal error: neither the legacy nor the /research layout produced any specification; the page may be blocked or changed again: https://www.google.com/url?q=https://www.cessnaflyer.org/cessna-singles/cessna-180-185/item/78-the-180-and-185-skywagon.html&sa=D&source=editors&ust=1638297838743000&usg=AOvVaw0pzmd6UFY38ZAIHF4acZqO"
+  }
+]
