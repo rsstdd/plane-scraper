@@ -1,4 +1,4 @@
-# PlanePhD Scraper
+# A Web Scraper Written in Rust
 
 Rust-based async scraper for collecting structured aircraft data from PlanePhD.
 
