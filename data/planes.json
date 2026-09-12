@@ -1,5 +1,173 @@
 {
+  "AERO COMMANDER": {
+    "100 (1960 - 1967)": {
+      "manufacturer_name": "AERO COMMANDER",
+      "aircraft_name": "100 (1960 - 1967)",
+      "source_link": "/wizard/details/1246/AERO-COMMANDER-100-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1246/AERO-COMMANDER-100-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "110 kt",
+        "best_range_i": "440 nm",
+        "ceiling": "13,000 ft",
+        "fuel_burn": "11 gph",
+        "horsepower": "150 HP",
+        "rate_of_climb": "780 fpm",
+        "stall_speed": "48 kt"
+      },
+      "weights": {
+        "empty_weight": "1,280 lbs",
+        "fuel_capacity": "44 gal",
+        "fuel_weight": "264 lbs",
+        "gross_weight": "2,250 lbs",
+        "payload_full_fuel": "706 lbs",
+        "useful_load": "970 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "150 HP",
+        "manufacturer": "Lycoming",
+        "model": "O-320-A",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
+    "1121 Jet Commander  (1963 - 1968)": {
+      "manufacturer_name": "AERO COMMANDER",
+      "aircraft_name": "1121 Jet Commander  (1963 - 1968)",
+      "source_link": "/wizard/details/1249/AERO-COMMANDER--1121-Jet-Commander--specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1249/AERO-COMMANDER--1121-Jet-Commander--specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "450 kt",
+        "best_range_i": "1,840 nm",
+        "ceiling": "40,000 ft",
+        "fuel_burn": "226 gph"
+      },
+      "weights": {
+        "empty_weight": "11,750 lbs",
+        "fuel_capacity": "926 gal",
+        "fuel_weight": "5,556 lbs",
+        "gross_weight": "19,000 lbs",
+        "payload_full_fuel": "1,694 lbs",
+        "useful_load": "7,250 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "manufacturer": "General Electric",
+        "model": "CJ6109"
+      },
+      "images": []
+    },
+    "200D (1955 - 1982)": {
+      "manufacturer_name": "AERO COMMANDER",
+      "aircraft_name": "200D (1955 - 1982)",
+      "source_link": "/wizard/details/1247/AERO-COMMANDER--Prop-Jets--Inc---200D-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1247/AERO-COMMANDER--Prop-Jets--Inc---200D-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "180 kt",
+        "best_range_i": "780 nm",
+        "ceiling": "18,500 ft",
+        "fuel_burn": "18.5 gph",
+        "horsepower": "285 HP",
+        "rate_of_climb": "1,400 fpm",
+        "stall_speed": "47 kt"
+      },
+      "weights": {
+        "empty_weight": "1,940 lbs",
+        "fuel_capacity": "80 gal",
+        "fuel_weight": "480 lbs",
+        "gross_weight": "3,000 lbs",
+        "payload_full_fuel": "580 lbs",
+        "useful_load": "1,060 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "285 HP",
+        "manufacturer": "Continental",
+        "model": "IO-520",
+        "overhaul_ht": "1,700 hrs"
+      },
+      "images": []
+    },
+    "500S (1951 - 1986)": {
+      "manufacturer_name": "AERO COMMANDER",
+      "aircraft_name": "500S (1951 - 1986)",
+      "source_link": "/wizard/details/1248/AERO-COMMANDER--Twin-Commander--500S-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1248/AERO-COMMANDER--Twin-Commander--500S-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "175 kt",
+        "best_range_i": "936 nm",
+        "ceiling": "19,400 ft",
+        "fuel_burn": "29.2 gph",
+        "horsepower": "290 HP",
+        "rate_of_climb": "1,340 fpm",
+        "stall_speed": "59 kt"
+      },
+      "weights": {
+        "empty_weight": "4,635 lbs",
+        "fuel_capacity": "156 gal",
+        "fuel_weight": "936 lbs",
+        "gross_weight": "6,750 lbs",
+        "payload_full_fuel": "1,179 lbs",
+        "useful_load": "2,115 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "290 HP",
+        "manufacturer": "Lycoming",
+        "model": "IO-540-E1A5",
+        "overhaul_ht": "1,600 hrs"
+      },
+      "images": []
+    }
+  },
   "AERO VODOCHODY": {
+    "L-29 Delfín (1963 - 1974)": {
+      "manufacturer_name": "AERO VODOCHODY",
+      "aircraft_name": "L-29 Delfín (1963 - 1974)",
+      "source_link": "/wizard/details/1250/AERO-Vodochody-L-29-Delf-n-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1250/AERO-Vodochody-L-29-Delf-n-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "330 kt",
+        "best_range_i": "479 nm",
+        "ceiling": "36,000 ft",
+        "fuel_burn": "175 gph",
+        "rate_of_climb": "2,750 fpm"
+      },
+      "weights": {
+        "empty_weight": "5,027 lbs",
+        "fuel_capacity": "254 gal",
+        "fuel_weight": "1,524 lbs",
+        "gross_weight": "7,230 lbs",
+        "payload_full_fuel": "679 lbs",
+        "useful_load": "2,203 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "manufacturer": "Motorlet",
+        "model": "M-701c 500"
+      },
+      "images": []
+    },
     "L-39 Albatross (1971 - 1996)": {
       "manufacturer_name": "AERO VODOCHODY",
       "aircraft_name": "L-39 Albatross (1971 - 1996)",
@@ -496,6 +664,41 @@
         "model": "503",
         "overhaul_ht": "300 Hrs",
         "years_before_overhaul": "5"
+      },
+      "images": []
+    },
+    "A-22 LS (1999 - present)": {
+      "manufacturer_name": "AEROPRAKT",
+      "aircraft_name": "A-22 LS (1999 - present)",
+      "source_link": "/wizard/details/1253/AEROPRAKT-AMERICA-INC-A-22-LS-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1253/AEROPRAKT-AMERICA-INC-A-22-LS-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "86 kt",
+        "best_range_i": "590 nm",
+        "ceiling": "13,000 ft",
+        "fuel_burn": "3.4 gph",
+        "horsepower": "100 HP",
+        "rate_of_climb": "980 fpm",
+        "stall_speed": "33 kt"
+      },
+      "weights": {
+        "empty_weight": "573 lbs",
+        "fuel_capacity": "23 gal",
+        "fuel_weight": "138 lbs",
+        "gross_weight": "1,323 lbs",
+        "payload_full_fuel": "612 lbs",
+        "useful_load": "750 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "100 HP",
+        "manufacturer": "Rotax",
+        "model": "912 ULS",
+        "overhaul_ht": "1,500 hrs"
       },
       "images": []
     },
@@ -1631,6 +1834,40 @@
           "dimensions": "419x280"
         }
       ]
+    },
+    "AT-802F (2017 - present)": {
+      "manufacturer_name": "AIR TRACTOR",
+      "aircraft_name": "AT-802F (2017 - present)",
+      "source_link": "/wizard/details/1086/AIR-TRACTOR-AT-802F-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1086/AIR-TRACTOR-AT-802F-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "192 kt",
+        "best_range_i": "695 nm",
+        "fuel_burn": "70 gph",
+        "horsepower": "1,350 HP",
+        "rate_of_climb": "850 fpm",
+        "stall_speed": "91 kt"
+      },
+      "weights": {
+        "empty_weight": "7,210 lbs",
+        "fuel_capacity": "254 gal",
+        "fuel_weight": "1,524 lbs",
+        "gross_weight": "16,000 lbs",
+        "payload_full_fuel": "7,266 lbs",
+        "useful_load": "8,790 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "1,350 HP",
+        "manufacturer": "Pratt & Whitney",
+        "model": "PT6A-67AG",
+        "overhaul_ht": "3,000 hrs"
+      },
+      "images": []
     }
   },
   "AIRPLANE FACTORY": {
@@ -1663,6 +1900,41 @@
         "manufacturer": "Rotax",
         "model": "912iS",
         "overhaul_ht": "2,000 Hrs"
+      },
+      "images": []
+    },
+    "Sling 4 (2012 - present)": {
+      "manufacturer_name": "AIRPLANE FACTORY",
+      "aircraft_name": "Sling 4 (2012 - present)",
+      "source_link": "/wizard/details/1408/AIRPLANE-FACTORY--Sling-4-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1408/AIRPLANE-FACTORY--Sling-4-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "127 kt",
+        "best_range_i": "700 nm",
+        "ceiling": "15,000 ft",
+        "fuel_burn": "9 gph",
+        "horsepower": "115 HP",
+        "rate_of_climb": "750 fpm",
+        "stall_speed": "47 kt"
+      },
+      "weights": {
+        "empty_weight": "1,036 lbs",
+        "fuel_capacity": "44 gal",
+        "fuel_weight": "264 lbs",
+        "gross_weight": "2,028 lbs",
+        "payload_full_fuel": "728 lbs",
+        "useful_load": "992 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "115 HP",
+        "manufacturer": "Rotax",
+        "model": "914UL",
+        "overhaul_ht": "2,000 hrs"
       },
       "images": []
     },
@@ -3007,6 +3279,104 @@
       ]
     }
   },
+  "AMERICAN LEGEND": {
+    "AL11J-120 (2015 - present)": {
+      "manufacturer_name": "AMERICAN LEGEND",
+      "aircraft_name": "AL11J-120 (2015 - present)",
+      "source_link": "/wizard/details/1412/AMERICAN-LEGEND-AL11J-120-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1412/AMERICAN-LEGEND-AL11J-120-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "84 kt",
+        "best_range_i": "274 nm",
+        "ceiling": "15,000 ft",
+        "fuel_burn": "6.4 gph",
+        "horsepower": "120 HP",
+        "rate_of_climb": "700 fpm",
+        "stall_speed": "32 kt"
+      },
+      "weights": {
+        "empty_weight": "835 lbs",
+        "fuel_capacity": "21 gal",
+        "fuel_weight": "126 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "120 HP",
+        "manufacturer": "Jabiru",
+        "model": "3300",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
+    "AL18 Super Legend (2015 - present)": {
+      "manufacturer_name": "AMERICAN LEGEND",
+      "aircraft_name": "AL18 Super Legend (2015 - present)",
+      "source_link": "/wizard/details/1413/AMERICAN-LEGEND-AL18-Super-Legend-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1413/AMERICAN-LEGEND-AL18-Super-Legend-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "92 kt",
+        "best_range_i": "276 nm",
+        "ceiling": "15,000 ft",
+        "fuel_burn": "9.7 gph",
+        "horsepower": "115 HP",
+        "rate_of_climb": "1,000 fpm",
+        "stall_speed": "25 kt"
+      },
+      "weights": {
+        "empty_weight": "855 lbs",
+        "fuel_capacity": "30 gal",
+        "fuel_weight": "180 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "115 HP",
+        "manufacturer": "Lycoming",
+        "model": "YO-235",
+        "overhaul_ht": "2,200 hrs"
+      },
+      "images": []
+    },
+    "AL3C-100 (2015 - present)": {
+      "manufacturer_name": "AMERICAN LEGEND",
+      "aircraft_name": "AL3C-100 (2015 - present)",
+      "source_link": "/wizard/details/1411/AMERICAN-LEGEND-AL3C-100-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1411/AMERICAN-LEGEND-AL3C-100-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "84 kt",
+        "best_range_i": "274 nm",
+        "ceiling": "15,000 ft",
+        "fuel_burn": "6.3 gph",
+        "horsepower": "100 HP",
+        "rate_of_climb": "700 fpm",
+        "stall_speed": "32 kt"
+      },
+      "weights": {
+        "empty_weight": "834 lbs",
+        "fuel_capacity": "21 gal",
+        "fuel_weight": "126 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "100 HP",
+        "manufacturer": "Continental",
+        "model": "O-200",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    }
+  },
   "ANTONOV": {
     "AN-24B (1959 - 1979)": {
       "manufacturer_name": "ANTONOV",
@@ -3310,6 +3680,223 @@
     }
   },
   "AVIAT": {
+    "Alpha Jet E (1977 - 1991)": {
+      "manufacturer_name": "AVIAT",
+      "aircraft_name": "Alpha Jet E (1977 - 1991)",
+      "source_link": "/wizard/details/1166/Dassault-Aviation--DORNIER-GMBH-Alpha-Jet-E-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1166/Dassault-Aviation--DORNIER-GMBH-Alpha-Jet-E-specifications-performance-operating-cost-valuation",
+      "title": "1977 - 1991 Dassault Aviation, DORNIER GMBH Alpha Jet E",
+      "description": "Twin engine turbofan aircraft. The Alpha Jet E seats up to 1 passengers plus 1 pilot(s).",
+      "papi_price_estimate": null,
+      "for_sale_count": "0",
+      "performance": {
+        "best_cruise_speed": "530 kt",
+        "best_range_i": "1,330 nm",
+        "ceiling": "50,000 ft",
+        "fuel_burn": "200 gph",
+        "rate_of_climb": "11,200 fpm",
+        "stall_speed": "90 kt",
+        "landing_distance": "2,002 FT",
+        "takeoff_distance": "1,346 FT",
+        "thrust": "2 x 3,000 N"
+      },
+      "weights": {
+        "empty_weight": "7,374 lbs",
+        "fuel_capacity": "502 gal",
+        "fuel_weight": "3,012 lbs",
+        "gross_weight": "17,637 lbs",
+        "payload_full_fuel": "7,251 lbs",
+        "useful_load": "10,263 lbs",
+        "maximum_payload": "5,512 LBS"
+      },
+      "ownership_costs": {
+        "pilot_salary_taxes_and_benefits": "Pilot training"
+      },
+      "engine": {
+        "manufacturer": "SNECMA Turbomeca Larzac",
+        "model": "04-C6",
+        "overhaul_ht": "None Hrs",
+        "thrust": "3,000 N"
+      },
+      "images": []
+    },
+    "GLASAIR I (1979 - 1988)": {
+      "manufacturer_name": "AVIAT",
+      "aircraft_name": "GLASAIR I (1979 - 1988)",
+      "source_link": "/wizard/details/1087/GLASAIR-AVIATION-GLASAIR-I-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1087/GLASAIR-AVIATION-GLASAIR-I-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "175 kt",
+        "best_range_i": "1,023 nm",
+        "ceiling": "19,000 ft",
+        "fuel_burn": "10 gph",
+        "horsepower": "200 HP",
+        "rate_of_climb": "1,500 fpm",
+        "stall_speed": "56 kt"
+      },
+      "weights": {
+        "empty_weight": "1,368 lbs",
+        "fuel_capacity": "59 gal",
+        "fuel_weight": "354 lbs",
+        "gross_weight": "2,200 lbs",
+        "payload_full_fuel": "478 lbs",
+        "useful_load": "832 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "200 HP",
+        "manufacturer": "Lycoming",
+        "model": "IO-360 A1B",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
+    "GLASAIR II RG (1989 - 2012)": {
+      "manufacturer_name": "AVIAT",
+      "aircraft_name": "GLASAIR II RG (1989 - 2012)",
+      "source_link": "/wizard/details/1088/GLASAIR-AVIATION-GLASAIR-II-RG-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1088/GLASAIR-AVIATION-GLASAIR-II-RG-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "192 kt",
+        "best_range_i": "1,544 nm",
+        "fuel_burn": "10 gph",
+        "horsepower": "180 HP",
+        "rate_of_climb": "1,700 fpm",
+        "stall_speed": "63 kt"
+      },
+      "weights": {
+        "empty_weight": "1,350 lbs",
+        "fuel_capacity": "81 gal",
+        "fuel_weight": "486 lbs",
+        "gross_weight": "2,100 lbs",
+        "payload_full_fuel": "264 lbs",
+        "useful_load": "750 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "180 HP",
+        "manufacturer": "Lycoming",
+        "model": "O-360",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
+    "GLASAIR III (1986 - 2016)": {
+      "manufacturer_name": "AVIAT",
+      "aircraft_name": "GLASAIR III (1986 - 2016)",
+      "source_link": "/wizard/details/1089/GLASAIR-AVIATION-GLASAIR-III-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1089/GLASAIR-AVIATION-GLASAIR-III-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "242 kt",
+        "best_range_i": "1,265 nm",
+        "ceiling": "24,000 ft",
+        "fuel_burn": "15.5 gph",
+        "horsepower": "300 HP",
+        "rate_of_climb": "2,140 fpm",
+        "stall_speed": "68 kt"
+      },
+      "weights": {
+        "empty_weight": "1,625 lbs",
+        "fuel_capacity": "81 gal",
+        "fuel_weight": "486 lbs",
+        "gross_weight": "2,400 lbs",
+        "payload_full_fuel": "289 lbs",
+        "useful_load": "775 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "300 HP",
+        "manufacturer": "Lycoming",
+        "model": "IO-540-K1H5",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
+    "GLASTAR (1994 - 2004)": {
+      "manufacturer_name": "AVIAT",
+      "aircraft_name": "GLASTAR (1994 - 2004)",
+      "source_link": "/wizard/details/1090/GLASAIR-AVIATION-GLASTAR-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1090/GLASAIR-AVIATION-GLASTAR-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "140 kt",
+        "best_range_i": "829 nm",
+        "ceiling": "20,000 ft",
+        "fuel_burn": "7.6 gph",
+        "horsepower": "160 HP",
+        "rate_of_climb": "1,390 fpm",
+        "stall_speed": "43 kt"
+      },
+      "weights": {
+        "empty_weight": "1,200 lbs",
+        "fuel_capacity": "45 gal",
+        "fuel_weight": "270 lbs",
+        "gross_weight": "1,960 lbs",
+        "payload_full_fuel": "490 lbs",
+        "useful_load": "760 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "160 HP",
+        "manufacturer": "Lycoming",
+        "model": "O-320",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
+    "GlaStar (1994 - 2004)": {
+      "manufacturer_name": "AVIAT",
+      "aircraft_name": "GlaStar (1994 - 2004)",
+      "source_link": "/wizard/details/1213/Glasair-Aviation--Stoddard-Hamilton--GlaStar-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1213/Glasair-Aviation--Stoddard-Hamilton--GlaStar-specifications-performance-operating-cost-valuation",
+      "title": "1994 - 2004 Glasair Aviation, Stoddard-Hamilton GlaStar",
+      "description": "Single engine piston aircraft with fixed landing gear. The GlaStar seats up to 1 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "0",
+      "performance": {
+        "best_cruise_speed": "140 kt",
+        "best_range_i": "829 nm",
+        "ceiling": "20,000 ft",
+        "fuel_burn": "7.6 gph",
+        "horsepower": "160 HP",
+        "rate_of_climb": "1,390 fpm",
+        "stall_speed": "43 kt",
+        "fuel_burn_75": "7.6 GPH",
+        "landing_distance": "375 FT",
+        "takeoff_distance": "400 FT"
+      },
+      "weights": {
+        "empty_weight": "1,200 lbs",
+        "fuel_capacity": "45 gal",
+        "fuel_weight": "270 lbs",
+        "gross_weight": "1,960 lbs",
+        "payload_full_fuel": "490 lbs",
+        "useful_load": "760 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "160 HP",
+        "manufacturer": "Lycoming",
+        "model": "O-320",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
     "Husky A-1C-200 (2009 - 2017)": {
       "manufacturer_name": "AVIAT",
       "aircraft_name": "Husky A-1C-200 (2009 - 2017)",
@@ -3359,6 +3946,441 @@
         "model": "IO-360-A1D6",
         "overhaul_ht": "2,000 Hrs",
         "years_before_overhaul": "12"
+      },
+      "images": []
+    },
+    "I RG (1979 - 1988)": {
+      "manufacturer_name": "AVIAT",
+      "aircraft_name": "I RG (1979 - 1988)",
+      "source_link": "/wizard/details/1210/Glasair-Aviation-I-RG-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1210/Glasair-Aviation-I-RG-specifications-performance-operating-cost-valuation",
+      "title": "1979 - 1988 Glasair Aviation I RG",
+      "description": "Single engine piston aircraft with fixed landing gear. The I RG seats up to 1 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "0",
+      "performance": {
+        "best_cruise_speed": "175 kt",
+        "best_range_i": "1,023 nm",
+        "ceiling": "19,000 ft",
+        "fuel_burn": "10 gph",
+        "horsepower": "200 HP",
+        "rate_of_climb": "1,500 fpm",
+        "stall_speed": "56 kt",
+        "fuel_burn_75": "10.0 GPH"
+      },
+      "weights": {
+        "empty_weight": "1,368 lbs",
+        "fuel_capacity": "59 gal",
+        "fuel_weight": "354 lbs",
+        "gross_weight": "2,200 lbs",
+        "payload_full_fuel": "478 lbs",
+        "useful_load": "832 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "200 HP",
+        "manufacturer": "Lycoming",
+        "model": "IO-360 A1B",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
+    "II RG (1989 - 2012)": {
+      "manufacturer_name": "AVIAT",
+      "aircraft_name": "II RG (1989 - 2012)",
+      "source_link": "/wizard/details/1211/Glasair-Aviation-II-RG-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1211/Glasair-Aviation-II-RG-specifications-performance-operating-cost-valuation",
+      "title": "1989 - 2012 Glasair Aviation II RG",
+      "description": "Single engine piston aircraft with fixed landing gear. The II RG seats up to 1 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "0",
+      "performance": {
+        "best_cruise_speed": "192 kt",
+        "best_range_i": "1,544 nm",
+        "fuel_burn": "10 gph",
+        "horsepower": "180 HP",
+        "rate_of_climb": "1,700 fpm",
+        "stall_speed": "63 kt",
+        "fuel_burn_75": "10.0 GPH"
+      },
+      "weights": {
+        "empty_weight": "1,350 lbs",
+        "fuel_capacity": "81 gal",
+        "fuel_weight": "486 lbs",
+        "gross_weight": "2,100 lbs",
+        "payload_full_fuel": "264 lbs",
+        "useful_load": "750 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "180 HP",
+        "manufacturer": "Lycoming",
+        "model": "O-360",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
+    "III (1986 - 2016)": {
+      "manufacturer_name": "AVIAT",
+      "aircraft_name": "III (1986 - 2016)",
+      "source_link": "/wizard/details/1212/Glasair-Aviation--Stoddard-Hamilton--III-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1212/Glasair-Aviation--Stoddard-Hamilton--III-specifications-performance-operating-cost-valuation",
+      "title": "1986 - 2016 Glasair Aviation, Stoddard-Hamilton III",
+      "description": "Single engine piston aircraft with retractable landing gear. The III seats up to 1 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "0",
+      "performance": {
+        "best_cruise_speed": "242 kt",
+        "best_range_i": "1,265 nm",
+        "ceiling": "24,000 ft",
+        "fuel_burn": "15.5 gph",
+        "horsepower": "300 HP",
+        "rate_of_climb": "2,140 fpm",
+        "stall_speed": "68 kt",
+        "fuel_burn_75": "15.5 GPH"
+      },
+      "weights": {
+        "empty_weight": "1,625 lbs",
+        "fuel_capacity": "81 gal",
+        "fuel_weight": "486 lbs",
+        "gross_weight": "2,400 lbs",
+        "payload_full_fuel": "289 lbs",
+        "useful_load": "775 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "300 HP",
+        "manufacturer": "Lycoming",
+        "model": "IO-540-K1H5",
+        "overhaul_ht": "2,000 hrs",
+        "years_before_overhaul": "12"
+      },
+      "images": []
+    },
+    "S-2B (1985 - 1999)": {
+      "manufacturer_name": "AVIAT",
+      "aircraft_name": "S-2B (1985 - 1999)",
+      "source_link": "/wizard/details/1281/PITTS--aviat--S-2B-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1281/PITTS--aviat--S-2B-specifications-performance-operating-cost-valuation",
+      "title": "1985 - 1999 PITTS (aviat) S-2B",
+      "description": "Single engine piston aircraft with fixed landing gear. The S-2B seats up to 1 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "1",
+      "performance": {
+        "best_cruise_speed": "152 kt",
+        "best_range_i": "277 nm",
+        "ceiling": "12,500 ft",
+        "fuel_burn": "15.4 gph",
+        "horsepower": "260 HP",
+        "rate_of_climb": "2,700 fpm",
+        "stall_speed": "52 kt",
+        "fuel_burn_75": "15.4 GPH"
+      },
+      "weights": {
+        "empty_weight": "1,150 lbs",
+        "fuel_capacity": "28 gal",
+        "fuel_weight": "168 lbs",
+        "gross_weight": "1,625 lbs",
+        "payload_full_fuel": "307 lbs",
+        "useful_load": "475 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "260 HP",
+        "manufacturer": "Lycoming",
+        "model": "AEIO-540-D4A5",
+        "overhaul_ht": "2,000 hrs",
+        "years_before_overhaul": "12"
+      },
+      "images": [
+        {
+          "href": "https://cdn.planespotters.net/07124/n88nl-private-pitts-s-2b_PlanespottersNet_961287_f055f14f55_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "421x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/32916/n916-private-pitts-s-2b_PlanespottersNet_639395_f85b283697_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/34883/n92ed-private-pitts-s-2b-special_PlanespottersNet_1184740_508df3bb4e_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/22453/n511mf-private-pitts-s-2b-speciale_PlanespottersNet_619395_d4f85e3c0a_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/35160/n51af-private-pitts-s-2b-speciale_PlanespottersNet_708539_f894834b8f_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/39014/n65ps-private-pitts-s-2b_PlanespottersNet_1204342_8fccb1ab50_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        }
+      ]
+    },
+    "S-2C (1999 - 2010)": {
+      "manufacturer_name": "AVIAT",
+      "aircraft_name": "S-2C (1999 - 2010)",
+      "source_link": "/wizard/details/1282/PITTS--aviat--S-2C-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1282/PITTS--aviat--S-2C-specifications-performance-operating-cost-valuation",
+      "title": "1999 - 2010 PITTS (aviat) S-2C",
+      "description": "Single engine piston aircraft with fixed landing gear. The S-2C seats up to 1 passengers plus 1 pilot.",
+      "papi_price_estimate": "$173,384",
+      "for_sale_count": "5",
+      "performance": {
+        "best_cruise_speed": "150 kt",
+        "best_range_i": "279 nm",
+        "horsepower": "260 HP",
+        "rate_of_climb": "2,900 fpm",
+        "fuel_burn_75": "None GPH",
+        "landing_distance": "750 FT",
+        "landing_distance_over_50ft_obstacle": "1,200 FT",
+        "takeoff_distance": "554 FT",
+        "takeoff_distance_over_50ft_obstacle": "860 FT"
+      },
+      "weights": {
+        "empty_weight": "1,155 lbs",
+        "fuel_capacity": "28 gal",
+        "fuel_weight": "168 lbs",
+        "gross_weight": "1,700 lbs",
+        "payload_full_fuel": "377 lbs",
+        "useful_load": "545 lbs"
+      },
+      "ownership_costs": {
+        "annual_inspection_cost": "$2,404.00",
+        "depreciation": "$5,255.44",
+        "hourly_maintenance": "$26.67",
+        "insurance": "$2,809.66",
+        "overhaul_reserves": "$18.51",
+        "refurbishing_and_modernization": "$745.62"
+      },
+      "engine": {
+        "horsepower": "260 HP",
+        "manufacturer": "Lycoming",
+        "model": "AEIO-540-D4A5",
+        "overhaul_ht": "2,000 hrs",
+        "years_before_overhaul": "12"
+      },
+      "images": [
+        {
+          "href": "https://cdn.planespotters.net/18350/n44qq-private-pitts-s-2c-speciale_PlanespottersNet_601841_8fa21d2154_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/36635/n49ta-private-pitts-s-2c-special_PlanespottersNet_669343_9cb60c6b9f_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/03772/n51ps-private-pitts-s-2c-special_PlanespottersNet_542257_296ef849d5_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        }
+      ]
+    },
+    "S-2S (1981 - 1997)": {
+      "manufacturer_name": "AVIAT",
+      "aircraft_name": "S-2S (1981 - 1997)",
+      "source_link": "/wizard/details/1283/PITTS--aviat--S-2S-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1283/PITTS--aviat--S-2S-specifications-performance-operating-cost-valuation",
+      "title": "1981 - 1997 PITTS (aviat) S-2S",
+      "description": "Single engine piston aircraft with fixed landing gear. The S-2S seats up to 0 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "7",
+      "performance": {
+        "best_cruise_speed": "146 kt",
+        "horsepower": "260 HP",
+        "rate_of_climb": "2,700 fpm",
+        "best_range_i": "None NM",
+        "fuel_burn_75": "None GPH"
+      },
+      "weights": {
+        "empty_weight": "1,150 lbs",
+        "fuel_capacity": "33 gal",
+        "fuel_weight": "198 lbs",
+        "gross_weight": "1,600 lbs",
+        "payload_full_fuel": "252 lbs",
+        "useful_load": "450 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "260 HP",
+        "manufacturer": "Lycoming",
+        "model": "AEIO-540-D4A5",
+        "overhaul_ht": "2,000 hrs",
+        "years_before_overhaul": "12"
+      },
+      "images": [
+        {
+          "href": "https://cdn.planespotters.net/23243/n99mf-private-pitts-s-2s_PlanespottersNet_052806_8d709a8c36_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        }
+      ]
+    },
+    "SPORTSMAN 2+2 (2003 - present)": {
+      "manufacturer_name": "AVIAT",
+      "aircraft_name": "SPORTSMAN 2+2 (2003 - present)",
+      "source_link": "/wizard/details/1091/GLASAIR-AVIATION-SPORTSMAN-2-2-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1091/GLASAIR-AVIATION-SPORTSMAN-2-2-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "137 kt",
+        "best_range_i": "721 nm",
+        "ceiling": "20,000 ft",
+        "fuel_burn": "9.5 gph",
+        "horsepower": "180 HP",
+        "rate_of_climb": "1,000 fpm",
+        "stall_speed": "42 kt"
+      },
+      "weights": {
+        "empty_weight": "1,350 lbs",
+        "fuel_capacity": "50 gal",
+        "fuel_weight": "300 lbs",
+        "gross_weight": "2,350 lbs",
+        "payload_full_fuel": "700 lbs",
+        "useful_load": "1,000 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "180 HP",
+        "manufacturer": "Lycoming",
+        "model": "IO-360",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
+    "Sportsman 2+2 (2003 - present)": {
+      "manufacturer_name": "AVIAT",
+      "aircraft_name": "Sportsman 2+2 (2003 - present)",
+      "source_link": "/wizard/details/1214/Glasair-Aviation-Sportsman-2-2-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1214/Glasair-Aviation-Sportsman-2-2-specifications-performance-operating-cost-valuation",
+      "title": "2003 - 2026 Glasair Aviation Sportsman 2+2",
+      "description": "Single engine piston aircraft with fixed landing gear. The Sportsman 2+2 seats up to 3 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "0",
+      "performance": {
+        "best_cruise_speed": "137 kt",
+        "best_range_i": "721 nm",
+        "ceiling": "20,000 ft",
+        "fuel_burn": "9.5 gph",
+        "horsepower": "180 HP",
+        "rate_of_climb": "1,000 fpm",
+        "stall_speed": "42 kt",
+        "fuel_burn_75": "9.5 GPH"
+      },
+      "weights": {
+        "empty_weight": "1,350 lbs",
+        "fuel_capacity": "50 gal",
+        "fuel_weight": "300 lbs",
+        "gross_weight": "2,350 lbs",
+        "payload_full_fuel": "700 lbs",
+        "useful_load": "1,000 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "180 HP",
+        "manufacturer": "Lycoming",
+        "model": "IO-360",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    }
+  },
+  "AVIONS PEIRRE ROBIN": {
+    "HR100  (1971 - 1976)": {
+      "manufacturer_name": "AVIONS PEIRRE ROBIN",
+      "aircraft_name": "HR100  (1971 - 1976)",
+      "source_link": "/wizard/details/1285/AVIONS-PEIRRE-ROBIN-HR100--specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1285/AVIONS-PEIRRE-ROBIN-HR100--specifications-performance-operating-cost-valuation",
+      "title": "1971 - 1976 AVIONS PEIRRE ROBIN HR100",
+      "description": "Single engine piston aircraft with fixed landing gear. The HR100 seats up to 3 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "0",
+      "performance": {
+        "best_cruise_speed": "158 kt",
+        "best_range_i": "1,266 nm",
+        "ceiling": "18,700 ft",
+        "fuel_burn": "15 gph",
+        "horsepower": "285 HP",
+        "rate_of_climb": "1,180 fpm",
+        "stall_speed": "59 kt",
+        "fuel_burn_75": "15.0 GPH",
+        "landing_distance_over_50ft_obstacle": "2,170 FT",
+        "takeoff_distance_over_50ft_obstacle": "1,970 FT"
+      },
+      "weights": {
+        "empty_weight": "1,852 lbs",
+        "fuel_capacity": "120 gal",
+        "fuel_weight": "720 lbs",
+        "gross_weight": "3,086 lbs",
+        "payload_full_fuel": "514 lbs",
+        "useful_load": "1,234 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "285 HP",
+        "manufacturer": "Teledyne Continental Tiara",
+        "model": "6-285 B",
+        "overhaul_ht": "1,200 hrs"
+      },
+      "images": []
+    }
+  },
+  "AYRES CORPORATION": {
+    "S2R-600 (1977 - 1990)": {
+      "manufacturer_name": "AYRES CORPORATION",
+      "aircraft_name": "S2R-600 (1977 - 1990)",
+      "source_link": "/wizard/details/1255/AYRES-CORPORATION-S2R-600-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1255/AYRES-CORPORATION-S2R-600-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "105 kt",
+        "best_range_i": "350 nm",
+        "ceiling": "12,000 ft",
+        "fuel_burn": "31.8 gph",
+        "horsepower": "600 HP",
+        "rate_of_climb": "900 fpm",
+        "stall_speed": "57 kt"
+      },
+      "weights": {
+        "empty_weight": "3,700 lbs",
+        "fuel_capacity": "106 gal",
+        "fuel_weight": "636 lbs",
+        "gross_weight": "6,900 lbs",
+        "payload_full_fuel": "2,564 lbs",
+        "useful_load": "3,200 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "600 HP",
+        "manufacturer": "Pratt & Whitney",
+        "model": "R-1340",
+        "overhaul_ht": "1,200 hrs"
       },
       "images": []
     }
@@ -3432,6 +4454,58 @@
     }
   },
   "BEECHCRAFT": {
+    "1000 (1990 - 1996)": {
+      "manufacturer_name": "BEECHCRAFT",
+      "aircraft_name": "1000 (1990 - 1996)",
+      "source_link": "/wizard/details/663/HAWKER-BEECHCRAFT-CORP-1000-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/663/HAWKER-BEECHCRAFT-CORP-1000-specifications-performance-operating-cost-valuation",
+      "title": "1990 - 1996 HAWKER BEECHCRAFT CORP 1000",
+      "description": "Twin engine turbofan aircraft. The 1000 seats up to 15 passengers plus 2 pilot(s).",
+      "papi_price_estimate": "$1,353,351",
+      "for_sale_count": "1",
+      "performance": {
+        "best_cruise_speed": "452 kt",
+        "best_range_i": "3,071 nm",
+        "ceiling": "43,000 ft",
+        "fuel_burn": "227 gph",
+        "rate_of_climb": "3,577 fpm",
+        "ceiling_1_engine_out": "21,000 FT",
+        "landing_distance": "2,500 FT",
+        "rate_of_climb_1_engine_out": "797 FPM",
+        "takeoff_distance": "5,950 FT",
+        "thrust": "2 x 5,220 N"
+      },
+      "weights": {
+        "empty_weight": "18,000 lbs",
+        "gross_weight": "31,000 lbs",
+        "useful_load": "13,000 lbs",
+        "fuel_capacity": "11,400 LBS",
+        "maximum_payload": "2,300 LBS"
+      },
+      "ownership_costs": {
+        "pilot_salary_taxes_and_benefits": "Pilot training"
+      },
+      "engine": {
+        "manufacturer": "Pratt & Whitney",
+        "model": "PW305B",
+        "overhaul_ht": "7,200 hrs",
+        "thrust": "5,220 N"
+      },
+      "images": [
+        {
+          "href": "https://cdn.planespotters.net/21892/n150lr-private-raytheon-hawker-1000_PlanespottersNet_088109_88addb732e_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "374x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/43805/n207k-private-raytheon-hawker-1000_PlanespottersNet_315912_669d565589_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        }
+      ]
+    },
     "1900C (1985 - 2002)": {
       "manufacturer_name": "BEECHCRAFT",
       "aircraft_name": "1900C (1985 - 2002)",
@@ -3816,6 +4890,183 @@
           "dimensions": "420x280"
         }
       ]
+    },
+    "4000 (2008 - 2012)": {
+      "manufacturer_name": "BEECHCRAFT",
+      "aircraft_name": "4000 (2008 - 2012)",
+      "source_link": "/wizard/details/662/HAWKER-BEECHCRAFT-CORP-4000-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/662/HAWKER-BEECHCRAFT-CORP-4000-specifications-performance-operating-cost-valuation",
+      "title": "2008 - 2012 HAWKER BEECHCRAFT CORP 4000",
+      "description": "Twin engine turbofan aircraft. The 4000 seats up to 10 passengers plus 2 pilot(s).",
+      "papi_price_estimate": "$2,924,113",
+      "for_sale_count": "8",
+      "performance": {
+        "best_cruise_speed": "470 kt",
+        "best_range_i": "3,280 nm",
+        "ceiling": "45,000 ft",
+        "fuel_burn": "268 gph",
+        "rate_of_climb": "2,300 fpm",
+        "ceiling_1_engine_out": "28,000 FT",
+        "landing_distance": "2,995 FT",
+        "rate_of_climb_1_engine_out": "576 FPM",
+        "takeoff_distance": "5,200 FT",
+        "thrust": "2 x 6,900 N"
+      },
+      "weights": {
+        "empty_weight": "23,500 lbs",
+        "fuel_capacity": "2,180 gal",
+        "fuel_weight": "13,080 lbs",
+        "gross_weight": "39,500 lbs",
+        "payload_full_fuel": "2,920 lbs",
+        "useful_load": "16,000 lbs",
+        "maximum_payload": "2,500 LBS"
+      },
+      "ownership_costs": {
+        "depreciation": "$105,716.34",
+        "fuel_cost_per_hour_268_0_gallons_hr_4_90_gal": "$1,313.20",
+        "hourly_maintenance": "$542.84",
+        "insurance": "$10,432.38",
+        "misc_landing_parking_supplies_catering_etc": "$315.74",
+        "miscellaneous_expenses": "$16,813.38",
+        "oil_cost_per_hour": "$0.00",
+        "overhaul_reserves": "$1,014.30",
+        "pilot_salary_taxes_and_benefits": "$272,179.34",
+        "pilot_training": "$52,679.40",
+        "refurbishing_and_modernization": "$12,645.30",
+        "storage": "$29,612.21",
+        "total_cost_of_ownership": "$1,246,225.09",
+        "total_fixed_cost": "$500,683.24",
+        "total_variable_cost_234_0_hrs_cost_per_hour_3_186_08_cost_per_mile_6_78": "$745,541.85",
+        "weather_service": "$604.89"
+      },
+      "engine": {
+        "manufacturer": "Pratt & Whitney",
+        "model": "PW308A",
+        "overhaul_ht": "6,000 hrs",
+        "thrust": "6,900 N"
+      },
+      "images": [
+        {
+          "href": "https://cdn.planespotters.net/22154/n86lf-private-raytheon-hawker-4000_PlanespottersNet_1184080_d365d96e7e_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/04075/n903ss-private-hawker-beechcraft-4000_PlanespottersNet_1168801_d1ad880e36_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/25775/n9930-private-raytheon-hawker-4000-horizon_PlanespottersNet_1047733_50bf49c33d_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/40129/n21fx-hawker-pacific-hawker-beechcraft-4000_PlanespottersNet_340484_b87f8ccf43_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/16120/n339ra-private-raytheon-hawker-4000_PlanespottersNet_1202453_fc4f274bcc_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/12438/n33vc-private-hawker-beechcraft-4000_PlanespottersNet_846493_87b72849c2_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "413x280"
+        }
+      ]
+    },
+    "400A (1990 - 2003)": {
+      "manufacturer_name": "BEECHCRAFT",
+      "aircraft_name": "400A (1990 - 2003)",
+      "source_link": "/wizard/details/700/HAWKER-BEECHCRAFT-CORP-400A-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/700/HAWKER-BEECHCRAFT-CORP-400A-specifications-performance-operating-cost-valuation",
+      "title": "1990 - 2003 HAWKER BEECHCRAFT CORP 400A",
+      "description": "Twin engine turbofan aircraft. The 400A seats up to 8 passengers plus 2 pilot(s).",
+      "papi_price_estimate": "$878,491",
+      "for_sale_count": "22",
+      "performance": {
+        "best_cruise_speed": "458 kt",
+        "best_range_i": "1,519 nm",
+        "ceiling": "45,000 ft",
+        "fuel_burn": "190 gph",
+        "rate_of_climb": "3,770 fpm",
+        "landing_distance": "2,730 FT",
+        "rate_of_climb_1_engine_out": "560 FPM",
+        "takeoff_distance": "4,600 FT",
+        "thrust": "2 x 2,900 N"
+      },
+      "weights": {
+        "empty_weight": "10,050 lbs",
+        "gross_weight": "16,100 lbs",
+        "useful_load": "6,050 lbs",
+        "fuel_capacity": "4,912 LBS",
+        "maximum_payload": "2,085 LBS"
+      },
+      "ownership_costs": {
+        "pilot_salary_taxes_and_benefits": "Pilot training"
+      },
+      "engine": {
+        "manufacturer": "Pratt & Whitney",
+        "model": "JT15D-5",
+        "overhaul_ht": "3,600 hrs",
+        "thrust": "2,900 N"
+      },
+      "images": [
+        {
+          "href": "/static/acftref/700_1.jpg",
+          "title": "Planephd credits this picture of a HAWKER BEECHCRAFT CORP 400A to Tom‡s Del Coro, who released it under the Attribution-Share Alike 2.0 Generic license.",
+          "holder": "Tom‡s Del Coro",
+          "dimensions": "800x539"
+        }
+      ]
+    },
+    "400XP (2004 - 2010)": {
+      "manufacturer_name": "BEECHCRAFT",
+      "aircraft_name": "400XP (2004 - 2010)",
+      "source_link": "/wizard/details/665/HAWKER-BEECHCRAFT-CORP-400XP-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/665/HAWKER-BEECHCRAFT-CORP-400XP-specifications-performance-operating-cost-valuation",
+      "title": "2004 - 2010 HAWKER BEECHCRAFT CORP 400XP",
+      "description": "Twin engine turbojet aircraft. The 400XP seats up to 8 passengers plus 2 pilot(s).",
+      "papi_price_estimate": "$1,697,519",
+      "for_sale_count": "22",
+      "performance": {
+        "best_cruise_speed": "450 kt",
+        "best_range_i": "1,500 nm",
+        "ceiling": "45,000 ft",
+        "fuel_burn": "191 gph",
+        "rate_of_climb": "4,020 fpm",
+        "ceiling_1_engine_out": "20,600 FT",
+        "landing_distance": "2,960 FT",
+        "rate_of_climb_1_engine_out": "305 FPM",
+        "takeoff_distance": "3,905 FT",
+        "thrust": "2 x 2,965 N"
+      },
+      "weights": {
+        "empty_weight": "10,985 lbs",
+        "gross_weight": "16,300 lbs",
+        "useful_load": "5,315 lbs",
+        "fuel_capacity": "4,912 LBS",
+        "maximum_payload": "2,015 LBS"
+      },
+      "ownership_costs": {
+        "pilot_salary_taxes_and_benefits": "Pilot training"
+      },
+      "engine": {
+        "manufacturer": "Pratt & Whitney",
+        "model": "JT15D-5",
+        "overhaul_ht": "3,600 hrs",
+        "thrust": "2,965 N"
+      },
+      "images": []
     },
     "50 Twin Bonanza (1952 - 1952)": {
       "manufacturer_name": "BEECHCRAFT",
@@ -5034,6 +6285,188 @@
         }
       ]
     },
+    "800XP (1995 - 2005)": {
+      "manufacturer_name": "BEECHCRAFT",
+      "aircraft_name": "800XP (1995 - 2005)",
+      "source_link": "/wizard/details/714/HAWKER-BEECHCRAFT-CORP-800XP-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/714/HAWKER-BEECHCRAFT-CORP-800XP-specifications-performance-operating-cost-valuation",
+      "title": "1995 - 2005 HAWKER BEECHCRAFT CORP 800XP",
+      "description": "Twin engine turbofan aircraft. The 800XP seats up to 13 passengers plus 2 pilot(s).",
+      "papi_price_estimate": "$2,146,852",
+      "for_sale_count": "81",
+      "performance": {
+        "best_cruise_speed": "447 kt",
+        "best_range_i": "2,590 nm",
+        "ceiling": "41,000 ft",
+        "fuel_burn": "228 gph",
+        "rate_of_climb": "3,415 fpm",
+        "ceiling_1_engine_out": "18,800 FT",
+        "landing_distance": "2,245 FT",
+        "rate_of_climb_1_engine_out": "354 FPM",
+        "takeoff_distance": "5,032 FT",
+        "thrust": "2 x 4,660 N"
+      },
+      "weights": {
+        "empty_weight": "16,250 lbs",
+        "gross_weight": "28,000 lbs",
+        "useful_load": "11,750 lbs",
+        "fuel_capacity": "10,000 LBS",
+        "maximum_payload": "2,200 LBS"
+      },
+      "ownership_costs": {
+        "depreciation": "$39,326.82",
+        "fuel_cost_per_hour_228_0_gallons_hr_4_90_gal": "$1,117.20",
+        "hourly_maintenance": "$529.63",
+        "insurance": "$4,830.64",
+        "misc_landing_parking_supplies_catering_etc": "$225.04",
+        "miscellaneous_expenses": "$12,999.86",
+        "oil_cost_per_hour": "$0.00",
+        "overhaul_reserves": "$399.00",
+        "pilot_salary_taxes_and_benefits": "$213,325.00",
+        "pilot_training": "$45,721.96",
+        "refurbishing_and_modernization": "$5,855.32",
+        "storage": "$18,123.13",
+        "total_cost_of_ownership": "$899,648.50",
+        "total_fixed_cost": "$340,787.62",
+        "total_variable_cost_246_1_hrs_cost_per_hour_2_270_87_cost_per_mile_5_08": "$558,860.87",
+        "weather_service": "$604.89"
+      },
+      "engine": {
+        "manufacturer": "Honeywell",
+        "model": "TFE 731-5BR",
+        "overhaul_ht": "4,200 hrs",
+        "thrust": "4,660 N"
+      },
+      "images": [
+        {
+          "href": "https://cdn.planespotters.net/31605/n80pk-private-raytheon-hawker-800xp_PlanespottersNet_1227319_9251a50ab8_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "497x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/29075/n812sd-private-raytheon-hawker-800xp_PlanespottersNet_1190134_7df1feef7b_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "497x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/11014/n816lx-liberty-jet-management-corp-raytheon-hawker-800xp_PlanespottersNet_568345_465f83270b_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/46630/n818lx-private-raytheon-hawker-800xp_PlanespottersNet_351534_965f0fa1d4_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/37363/n821lb-untitled-raytheon-hawker-850xp_PlanespottersNet_217917_1b91a41b83_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/36409/n823am-airmed-1-superior-ambulance-service-raytheon-hawker-800xp_PlanespottersNet_1229469_870df40b8d_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "448x280"
+        }
+      ]
+    },
+    "850XP (2006 - 2009)": {
+      "manufacturer_name": "BEECHCRAFT",
+      "aircraft_name": "850XP (2006 - 2009)",
+      "source_link": "/wizard/details/664/HAWKER-BEECHCRAFT-CORP-850XP-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/664/HAWKER-BEECHCRAFT-CORP-850XP-specifications-performance-operating-cost-valuation",
+      "title": "2006 - 2009 HAWKER BEECHCRAFT CORP 850XP",
+      "description": "Twin engine turbofan aircraft. The 850XP seats up to 13 passengers plus 2 pilot(s).",
+      "papi_price_estimate": "$2,958,757",
+      "for_sale_count": "81",
+      "performance": {
+        "best_cruise_speed": "448 kt",
+        "best_range_i": "2,642 nm",
+        "ceiling": "41,000 ft",
+        "fuel_burn": "276 gph",
+        "rate_of_climb": "3,415 fpm",
+        "ceiling_1_engine_out": "18,800 FT",
+        "landing_distance": "2,245 FT",
+        "rate_of_climb_1_engine_out": "470 FPM",
+        "takeoff_distance": "5,032 FT",
+        "thrust": "2 x 4,660 N"
+      },
+      "weights": {
+        "empty_weight": "15,670 lbs",
+        "gross_weight": "28,000 lbs",
+        "useful_load": "12,330 lbs",
+        "fuel_capacity": "10,000 LBS",
+        "maximum_payload": "2,120 LBS"
+      },
+      "ownership_costs": {
+        "depreciation": "$102,796.43",
+        "fuel_cost_per_hour_276_0_gallons_hr_4_90_gal": "$1,352.40",
+        "hourly_maintenance": "$542.83",
+        "insurance": "$10,429.46",
+        "misc_landing_parking_supplies_catering_etc": "$252.37",
+        "miscellaneous_expenses": "$13,749.02",
+        "oil_cost_per_hour": "$0.00",
+        "overhaul_reserves": "$399.00",
+        "pilot_salary_taxes_and_benefits": "$222,600.00",
+        "pilot_training": "$45,721.96",
+        "refurbishing_and_modernization": "$12,641.77",
+        "storage": "$19,535.53",
+        "total_cost_of_ownership": "$1,053,269.34",
+        "total_fixed_cost": "$428,079.07",
+        "total_variable_cost_245_5_hrs_cost_per_hour_2_546_60_cost_per_mile_5_68": "$625,190.27",
+        "weather_service": "$604.89"
+      },
+      "engine": {
+        "manufacturer": "Honeywell",
+        "model": "TFE 731-5BR",
+        "overhaul_ht": "4,200 hrs",
+        "thrust": "4,660 N"
+      },
+      "images": [
+        {
+          "href": "https://cdn.planespotters.net/39281/n850ec-private-raytheon-hawker-850xp_PlanespottersNet_1138217_4ea8510413_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/45732/n921pk-private-raytheon-hawker-850xp_PlanespottersNet_1224382_66f699edc4_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "497x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/43012/n977lc-private-raytheon-hawker-850xp_PlanespottersNet_1226206_30ae002576_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "497x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/42671/n150gf-private-raytheon-hawker-850xp_PlanespottersNet_343683_354455cb9c_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "373x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/27351/n188b-paramount-aviation-raytheon-hawker-850xp_PlanespottersNet_882149_dbd48d8324_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "373x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/07333/n269aa-private-hawker-beechcraft-850xp_PlanespottersNet_1157813_b533dabfaf_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        }
+      ]
+    },
     "88 Queen Air (1966 - 1967)": {
       "manufacturer_name": "BEECHCRAFT",
       "aircraft_name": "88 Queen Air (1966 - 1967)",
@@ -5164,6 +6597,97 @@
           "title": "Planephd credits this picture of a BEECHCRAFT 90 King Air to Aldo Bidini, who released it under the GNU Free Documentation License, Version 1.2 only license.",
           "holder": "Aldo Bidini",
           "dimensions": "800x544"
+        }
+      ]
+    },
+    "900XP (2007 - 2012)": {
+      "manufacturer_name": "BEECHCRAFT",
+      "aircraft_name": "900XP (2007 - 2012)",
+      "source_link": "/wizard/details/715/HAWKER-BEECHCRAFT-CORP-900XP-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/715/HAWKER-BEECHCRAFT-CORP-900XP-specifications-performance-operating-cost-valuation",
+      "title": "2007 - 2012 HAWKER BEECHCRAFT CORP 900XP",
+      "description": "Twin engine turbofan aircraft. The 900XP seats up to 15 passengers plus 2 pilot(s).",
+      "papi_price_estimate": "$3,755,145",
+      "for_sale_count": "81",
+      "performance": {
+        "best_cruise_speed": "446 kt",
+        "best_range_i": "2,790 nm",
+        "ceiling": "41,000 ft",
+        "fuel_burn": "229 gph",
+        "rate_of_climb": "3,415 fpm",
+        "ceiling_1_engine_out": "21,800 FT",
+        "landing_distance": "2,280 FT",
+        "rate_of_climb_1_engine_out": "428 FPM",
+        "takeoff_distance": "4,965 FT",
+        "thrust": "2 x 4,660 N"
+      },
+      "weights": {
+        "empty_weight": "16,500 lbs",
+        "gross_weight": "28,000 lbs",
+        "useful_load": "11,500 lbs",
+        "fuel_capacity": "10,000 LBS",
+        "maximum_payload": "1,950 LBS"
+      },
+      "ownership_costs": {
+        "depreciation": "$137,021.08",
+        "fuel_cost_per_hour_229_0_gallons_hr_4_90_gal": "$1,122.10",
+        "hourly_maintenance": "$547.77",
+        "insurance": "$13,841.92",
+        "misc_landing_parking_supplies_catering_etc": "$227.58",
+        "miscellaneous_expenses": "$13,889.76",
+        "oil_cost_per_hour": "$0.00",
+        "overhaul_reserves": "$399.00",
+        "pilot_salary_taxes_and_benefits": "$222,600.00",
+        "pilot_training": "$45,721.96",
+        "refurbishing_and_modernization": "$16,778.08",
+        "storage": "$19,182.46",
+        "total_cost_of_ownership": "$1,035,944.62",
+        "total_fixed_cost": "$469,640.15",
+        "total_variable_cost_246_6_hrs_cost_per_hour_2_296_45_cost_per_mile_5_15": "$566,304.48",
+        "weather_service": "$604.89"
+      },
+      "engine": {
+        "manufacturer": "Honeywell",
+        "model": "TFE 731-50R",
+        "overhaul_ht": "6,000 hrs",
+        "thrust": "4,660 N"
+      },
+      "images": [
+        {
+          "href": "https://cdn.planespotters.net/01919/n80j-private-raytheon-hawker-900xp_PlanespottersNet_139679_230bb3e3a7_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/22024/n844jd-private-raytheon-hawker-900xp_PlanespottersNet_783843_ac562414b0_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/15221/n881jc-jhonlin-air-transport-hawker-beechcraft-900xp_PlanespottersNet_1159136_2d3c08fe38_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "448x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/48531/n900er-lion-air-boeing-737-9gperwl_PlanespottersNet_1212183_d31f554abf_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/28608/n900xg-private-hawker-beechcraft-900xp_PlanespottersNet_1221946_5e73731d6e_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "497x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/48164/n900xp-private-hawker-beechcraft-900xp_PlanespottersNet_929710_251ac1b5e3_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
         }
       ]
     },
@@ -15439,6 +16963,123 @@
         },
         {
           "href": "https://cdn.planespotters.net/10370/n826an-american-airlines-boeing-787-9-dreamliner_PlanespottersNet_1171129_4acabeea1e_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        }
+      ]
+    },
+    "DC-8-62 (1967 - 1972)": {
+      "manufacturer_name": "BOEING",
+      "aircraft_name": "DC-8-62 (1967 - 1972)",
+      "source_link": "/wizard/details/1181/McDonnell-Douglas--Boeing-Company--DC-8-62-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1181/McDonnell-Douglas--Boeing-Company--DC-8-62-specifications-performance-operating-cost-valuation",
+      "title": "1967 - 1972 McDonnell Douglas, Boeing Company DC-8-62",
+      "description": "Multi engine turbojet aircraft. The DC-8-62 seats up to 188 passengers plus 1 pilot(s).",
+      "papi_price_estimate": null,
+      "for_sale_count": "0",
+      "performance": {
+        "best_cruise_speed": "483 kt",
+        "best_range_i": "5,200 nm",
+        "fuel_burn": "2255 gph",
+        "thrust": "4 x None N"
+      },
+      "weights": {
+        "empty_weight": "143,255 lbs",
+        "fuel_capacity": "24,275 gal",
+        "fuel_weight": "145,650 lbs",
+        "gross_weight": "350,000 lbs",
+        "payload_full_fuel": "61,095 lbs",
+        "useful_load": "206,745 lbs",
+        "maximum_payload": "51,745 LBS"
+      },
+      "ownership_costs": {
+        "pilot_salary_taxes_and_benefits": "Pilot training"
+      },
+      "engine": {
+        "manufacturer": "Pratt and Whitney",
+        "model": "JT3D-3B",
+        "overhaul_ht": "None Hrs",
+        "thrust": "None N"
+      },
+      "images": [
+        {
+          "href": "https://cdn.planespotters.net/23692/n995cf-cf-airfreight-douglas-dc-8-62f_PlanespottersNet_1181264_710eb1c10d_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "497x280"
+        }
+      ]
+    },
+    "MD-90-30 (1993 - 2000)": {
+      "manufacturer_name": "BOEING",
+      "aircraft_name": "MD-90-30 (1993 - 2000)",
+      "source_link": "/wizard/details/1183/McDonnell-Douglas--Boeing-Company--MD-90-30-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1183/McDonnell-Douglas--Boeing-Company--MD-90-30-specifications-performance-operating-cost-valuation",
+      "title": "1993 - 2000 McDonnell Douglas, Boeing Company MD-90-30",
+      "description": "Twin engine turbofan aircraft. The MD-90-30 seats up to 161 passengers plus 2 pilot(s).",
+      "papi_price_estimate": null,
+      "for_sale_count": "0",
+      "performance": {
+        "best_cruise_speed": "438 kt",
+        "best_range_i": "2,000 nm",
+        "ceiling": "37,000 ft",
+        "fuel_burn": "1356 gph",
+        "landing_distance": "5,250 FT",
+        "takeoff_distance": "7,107 FT",
+        "thrust": "2 x 25,000 N"
+      },
+      "weights": {
+        "empty_weight": "88,200 lbs",
+        "fuel_capacity": "6,192 gal",
+        "fuel_weight": "37,152 lbs",
+        "gross_weight": "160,500 lbs",
+        "payload_full_fuel": "35,148 lbs",
+        "useful_load": "72,300 lbs",
+        "maximum_payload": "41,800 LBS"
+      },
+      "ownership_costs": {
+        "pilot_salary_taxes_and_benefits": "Pilot training"
+      },
+      "engine": {
+        "manufacturer": "International Aero Engines (IAE)",
+        "model": "V2525-D5",
+        "overhaul_ht": "None Hrs",
+        "thrust": "25,000 N"
+      },
+      "images": [
+        {
+          "href": "https://cdn.planespotters.net/19802/n934dn-delta-air-lines-mcdonnell-douglas-md-90-30_PlanespottersNet_810830_60b2a06020_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/24992/n944dn-delta-air-lines-mcdonnell-douglas-md-90-30_PlanespottersNet_952761_25a3c6af9f_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/36935/n947dn-delta-air-lines-mcdonnell-douglas-md-90-30_PlanespottersNet_925009_3f5339cdc1_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/35059/n949dn-delta-air-lines-mcdonnell-douglas-md-90-30_PlanespottersNet_751551_755856c17e_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "477x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/04028/n951dn-delta-air-lines-mcdonnell-douglas-md-90-30_PlanespottersNet_1018944_ff53525e1d_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/15065/n942dn-delta-air-lines-mcdonnell-douglas-md-90-30_PlanespottersNet_620605_39e496a17d_280.jpg",
           "title": "",
           "holder": "planespotters.net",
           "dimensions": "419x280"
@@ -40805,6 +42446,41 @@
     }
   },
   "COMMANDER": {
+    "100 (1960 - 1967)": {
+      "manufacturer_name": "COMMANDER",
+      "aircraft_name": "100 (1960 - 1967)",
+      "source_link": "/wizard/details/1246/AERO-COMMANDER-100-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1246/AERO-COMMANDER-100-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "110 kt",
+        "best_range_i": "440 nm",
+        "ceiling": "13,000 ft",
+        "fuel_burn": "11 gph",
+        "horsepower": "150 HP",
+        "rate_of_climb": "780 fpm",
+        "stall_speed": "48 kt"
+      },
+      "weights": {
+        "empty_weight": "1,280 lbs",
+        "fuel_capacity": "44 gal",
+        "fuel_weight": "264 lbs",
+        "gross_weight": "2,250 lbs",
+        "payload_full_fuel": "706 lbs",
+        "useful_load": "970 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "150 HP",
+        "manufacturer": "Lycoming",
+        "model": "O-320-A",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
     "112 (1972 - 1973)": {
       "manufacturer_name": "COMMANDER",
       "aircraft_name": "112 (1972 - 1973)",
@@ -40893,6 +42569,36 @@
           "dimensions": "800x524"
         }
       ]
+    },
+    "1121 Jet Commander  (1963 - 1968)": {
+      "manufacturer_name": "COMMANDER",
+      "aircraft_name": "1121 Jet Commander  (1963 - 1968)",
+      "source_link": "/wizard/details/1249/AERO-COMMANDER--1121-Jet-Commander--specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1249/AERO-COMMANDER--1121-Jet-Commander--specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "450 kt",
+        "best_range_i": "1,840 nm",
+        "ceiling": "40,000 ft",
+        "fuel_burn": "226 gph"
+      },
+      "weights": {
+        "empty_weight": "11,750 lbs",
+        "fuel_capacity": "926 gal",
+        "fuel_weight": "5,556 lbs",
+        "gross_weight": "19,000 lbs",
+        "payload_full_fuel": "1,694 lbs",
+        "useful_load": "7,250 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "manufacturer": "General Electric",
+        "model": "CJ6109"
+      },
+      "images": []
     },
     "112A (1974 - 1976)": {
       "manufacturer_name": "COMMANDER",
@@ -41284,6 +42990,41 @@
         }
       ]
     },
+    "200D (1955 - 1982)": {
+      "manufacturer_name": "COMMANDER",
+      "aircraft_name": "200D (1955 - 1982)",
+      "source_link": "/wizard/details/1247/AERO-COMMANDER--Prop-Jets--Inc---200D-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1247/AERO-COMMANDER--Prop-Jets--Inc---200D-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "180 kt",
+        "best_range_i": "780 nm",
+        "ceiling": "18,500 ft",
+        "fuel_burn": "18.5 gph",
+        "horsepower": "285 HP",
+        "rate_of_climb": "1,400 fpm",
+        "stall_speed": "47 kt"
+      },
+      "weights": {
+        "empty_weight": "1,940 lbs",
+        "fuel_capacity": "80 gal",
+        "fuel_weight": "480 lbs",
+        "gross_weight": "3,000 lbs",
+        "payload_full_fuel": "580 lbs",
+        "useful_load": "1,060 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "285 HP",
+        "manufacturer": "Continental",
+        "model": "IO-520",
+        "overhaul_ht": "1,700 hrs"
+      },
+      "images": []
+    },
     "500 (1958 - 1959)": {
       "manufacturer_name": "COMMANDER",
       "aircraft_name": "500 (1958 - 1959)",
@@ -41530,6 +43271,41 @@
           "dimensions": "420x280"
         }
       ]
+    },
+    "500S (1951 - 1986)": {
+      "manufacturer_name": "COMMANDER",
+      "aircraft_name": "500S (1951 - 1986)",
+      "source_link": "/wizard/details/1248/AERO-COMMANDER--Twin-Commander--500S-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1248/AERO-COMMANDER--Twin-Commander--500S-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "175 kt",
+        "best_range_i": "936 nm",
+        "ceiling": "19,400 ft",
+        "fuel_burn": "29.2 gph",
+        "horsepower": "290 HP",
+        "rate_of_climb": "1,340 fpm",
+        "stall_speed": "59 kt"
+      },
+      "weights": {
+        "empty_weight": "4,635 lbs",
+        "fuel_capacity": "156 gal",
+        "fuel_weight": "936 lbs",
+        "gross_weight": "6,750 lbs",
+        "payload_full_fuel": "1,179 lbs",
+        "useful_load": "2,115 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "290 HP",
+        "manufacturer": "Lycoming",
+        "model": "IO-540-E1A5",
+        "overhaul_ht": "1,600 hrs"
+      },
+      "images": []
     },
     "500S Shrike (1968 - 1980)": {
       "manufacturer_name": "COMMANDER",
@@ -41941,6 +43717,43 @@
           "dimensions": "419x280"
         }
       ]
+    }
+  },
+  "CZECH SPORT AIRCRAFT A S": {
+    "SportCruiser (2006 - present)": {
+      "manufacturer_name": "CZECH SPORT AIRCRAFT A S",
+      "aircraft_name": "SportCruiser (2006 - present)",
+      "source_link": "/wizard/details/1205/CZECH-SPORT-AIRCRAFT-A-S-SportCruiser-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1205/CZECH-SPORT-AIRCRAFT-A-S-SportCruiser-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "119 kt",
+        "best_range_i": "630 nm",
+        "ceiling": "20,000 ft",
+        "fuel_burn": "5.7 gph",
+        "horsepower": "100 HP",
+        "rate_of_climb": "825 fpm",
+        "stall_speed": "31 kt"
+      },
+      "weights": {
+        "empty_weight": "855 lbs",
+        "fuel_capacity": "30 gal",
+        "fuel_weight": "180 lbs",
+        "gross_weight": "1,320 lbs",
+        "payload_full_fuel": "285 lbs",
+        "useful_load": "465 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "100 HP",
+        "manufacturer": "ROTAX",
+        "model": "912 ULS2",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
     }
   },
   "DAHER": {
@@ -42741,21 +44554,24 @@
       "papi_price_estimate": null,
       "for_sale_count": "0",
       "performance": {
-        "best_cruise_speed": "530 KIAS",
-        "best_range_i": "1,330 NM",
-        "ceiling": "50,000 FT",
-        "fuel_burn": "200.0 GPH",
+        "best_cruise_speed": "530 kt",
+        "best_range_i": "1,330 nm",
+        "ceiling": "50,000 ft",
+        "fuel_burn": "200 gph",
         "landing_distance": "2,002 FT",
-        "rate_of_climb": "11,200 FPM",
-        "stall_speed": "90 KIAS",
+        "rate_of_climb": "11,200 fpm",
+        "stall_speed": "90 kt",
         "takeoff_distance": "1,346 FT",
         "thrust": "2 x 3,000 N"
       },
       "weights": {
-        "empty_weight": "7,374 LBS",
-        "fuel_capacity": "502 GAL",
-        "gross_weight": "17,637 LBS",
-        "maximum_payload": "5,512 LBS"
+        "empty_weight": "7,374 lbs",
+        "fuel_capacity": "502 gal",
+        "fuel_weight": "3,012 lbs",
+        "gross_weight": "17,637 lbs",
+        "maximum_payload": "5,512 LBS",
+        "payload_full_fuel": "7,251 lbs",
+        "useful_load": "10,263 lbs"
       },
       "ownership_costs": {
         "pilot_salary_taxes_and_benefits": "Pilot training"
@@ -44633,6 +46449,94 @@
           "dimensions": "419x280"
         }
       ]
+    },
+    "DHC-6-400 (2008 - present)": {
+      "manufacturer_name": "DEHAVILLAND",
+      "aircraft_name": "DHC-6-400 (2008 - present)",
+      "source_link": "/wizard/details/983/Dehavilland--VIKING-AIR-LIMITED-DHC-6-400-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/983/Dehavilland--VIKING-AIR-LIMITED-DHC-6-400-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "170 kt",
+        "best_range_i": "799 nm",
+        "ceiling": "25,000 ft",
+        "fuel_burn": "80.4 gph",
+        "horsepower": "750 HP",
+        "rate_of_climb": "1,600 fpm",
+        "stall_speed": "95 kt"
+      },
+      "weights": {
+        "empty_weight": "7,100 lbs",
+        "fuel_capacity": "378 gal",
+        "fuel_weight": "2,268 lbs",
+        "gross_weight": "12,500 lbs",
+        "payload_full_fuel": "3,132 lbs",
+        "useful_load": "5,400 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "750 HP",
+        "manufacturer": "Pratt & Whitney",
+        "model": "PT6A-34",
+        "overhaul_ht": "4,000 hrs"
+      },
+      "images": []
+    },
+    "DHC-7 (1975 - 1988)": {
+      "manufacturer_name": "DEHAVILLAND",
+      "aircraft_name": "DHC-7 (1975 - 1988)",
+      "source_link": "/wizard/details/984/DEHAVILLAND-DHC-7-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/984/DEHAVILLAND-DHC-7-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "100 kt",
+        "fuel_burn": "5 gph"
+      },
+      "weights": {},
+      "ownership_costs": {},
+      "engine": {},
+      "images": []
+    },
+    "DHC-8-102 (1986 - 2005)": {
+      "manufacturer_name": "DEHAVILLAND",
+      "aircraft_name": "DHC-8-102 (1986 - 2005)",
+      "source_link": "/wizard/details/985/DEHAVILLAND-DHC-8-102-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/985/DEHAVILLAND-DHC-8-102-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "240 kt",
+        "best_range_i": "1,174 nm",
+        "ceiling": "25,000 ft",
+        "fuel_burn": "170.7 gph",
+        "horsepower": "1,800 HP",
+        "rate_of_climb": "1,475 fpm",
+        "stall_speed": "79 kt"
+      },
+      "weights": {
+        "empty_weight": "23,113 lbs",
+        "fuel_capacity": "835 gal",
+        "fuel_weight": "5,010 lbs",
+        "gross_weight": "34,500 lbs",
+        "payload_full_fuel": "6,377 lbs",
+        "useful_load": "11,387 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "1,800 HP",
+        "manufacturer": "Pratt & Whitney",
+        "model": "PW120A",
+        "overhaul_ht": "3,600 hrs"
+      },
+      "images": []
     }
   },
   "DIAMOND": {
@@ -46830,6 +48734,110 @@
     }
   },
   "FLIGHT DESIGN": {
+    "CT2K (1999 - 2017)": {
+      "manufacturer_name": "FLIGHT DESIGN",
+      "aircraft_name": "CT2K (1999 - 2017)",
+      "source_link": "/wizard/details/1262/FLIGHT-DESIGN-GMBH-CT2K-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1262/FLIGHT-DESIGN-GMBH-CT2K-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "127 kt",
+        "best_range_i": "870 nm",
+        "fuel_burn": "5 gph",
+        "horsepower": "101 HP",
+        "rate_of_climb": "980 fpm",
+        "stall_speed": "33 kt"
+      },
+      "weights": {
+        "empty_weight": "595 lbs",
+        "fuel_capacity": "33 gal",
+        "fuel_weight": "198 lbs",
+        "gross_weight": "992 lbs",
+        "payload_full_fuel": "199 lbs",
+        "useful_load": "397 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "101 HP",
+        "manufacturer": "Rotax",
+        "model": "912S",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
+    "CTLS  (2008 - present)": {
+      "manufacturer_name": "FLIGHT DESIGN",
+      "aircraft_name": "CTLS  (2008 - present)",
+      "source_link": "/wizard/details/986/FLIGHT-DESIGN-GMBH-CTLS--specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/986/FLIGHT-DESIGN-GMBH-CTLS--specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "112 kt",
+        "best_range_i": "1,079 nm",
+        "ceiling": "15,000 ft",
+        "fuel_burn": "3.5 gph",
+        "horsepower": "100 HP",
+        "rate_of_climb": "960 fpm",
+        "stall_speed": "35 kt"
+      },
+      "weights": {
+        "empty_weight": "717 lbs",
+        "fuel_capacity": "34 gal",
+        "fuel_weight": "204 lbs",
+        "gross_weight": "1,320 lbs",
+        "payload_full_fuel": "399 lbs",
+        "useful_load": "603 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "100 HP",
+        "manufacturer": "Rotax",
+        "model": "912",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
+    "CTSW (1997 - 2017)": {
+      "manufacturer_name": "FLIGHT DESIGN",
+      "aircraft_name": "CTSW (1997 - 2017)",
+      "source_link": "/wizard/details/1261/FLIGHT-DESIGN-GMBH-CTSW-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1261/FLIGHT-DESIGN-GMBH-CTSW-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "112 kt",
+        "best_range_i": "1,100 nm",
+        "ceiling": "15,000 ft",
+        "fuel_burn": "3.5 gph",
+        "horsepower": "101 HP",
+        "rate_of_climb": "960 fpm",
+        "stall_speed": "35 kt"
+      },
+      "weights": {
+        "empty_weight": "700 lbs",
+        "fuel_capacity": "33 gal",
+        "fuel_weight": "198 lbs",
+        "gross_weight": "1,321 lbs",
+        "payload_full_fuel": "423 lbs",
+        "useful_load": "621 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "101 HP",
+        "manufacturer": "Rotax",
+        "model": "912S",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
     "F2-LSA (2020 - present)": {
       "manufacturer_name": "FLIGHT DESIGN",
       "aircraft_name": "F2-LSA (2020 - present)",
@@ -46935,7 +48943,183 @@
       "images": []
     }
   },
+  "GIPPSAERO": {
+    "GA8 Airvan (2000 - 2020)": {
+      "manufacturer_name": "GIPPSAERO",
+      "aircraft_name": "GA8 Airvan (2000 - 2020)",
+      "source_link": "/wizard/details/1209/GippsAero-GA8-Airvan-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1209/GippsAero-GA8-Airvan-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "120 kt",
+        "best_range_i": "730 nm",
+        "ceiling": "20,000 ft",
+        "fuel_burn": "14.3 gph",
+        "horsepower": "250 HP",
+        "rate_of_climb": "788 fpm",
+        "stall_speed": "52 kt"
+      },
+      "weights": {
+        "empty_weight": "2,198 lbs",
+        "fuel_capacity": "87 gal",
+        "fuel_weight": "522 lbs",
+        "gross_weight": "4,000 lbs",
+        "payload_full_fuel": "1,280 lbs",
+        "useful_load": "1,802 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "250 HP",
+        "manufacturer": "Textron Lycoming",
+        "model": "IO-540-K1A5",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    }
+  },
   "GLASAIR AVIATION": {
+    "GLASAIR I (1979 - 1988)": {
+      "manufacturer_name": "GLASAIR AVIATION",
+      "aircraft_name": "GLASAIR I (1979 - 1988)",
+      "source_link": "/wizard/details/1087/GLASAIR-AVIATION-GLASAIR-I-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1087/GLASAIR-AVIATION-GLASAIR-I-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "175 kt",
+        "best_range_i": "1,023 nm",
+        "ceiling": "19,000 ft",
+        "fuel_burn": "10 gph",
+        "horsepower": "200 HP",
+        "rate_of_climb": "1,500 fpm",
+        "stall_speed": "56 kt"
+      },
+      "weights": {
+        "empty_weight": "1,368 lbs",
+        "fuel_capacity": "59 gal",
+        "fuel_weight": "354 lbs",
+        "gross_weight": "2,200 lbs",
+        "payload_full_fuel": "478 lbs",
+        "useful_load": "832 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "200 HP",
+        "manufacturer": "Lycoming",
+        "model": "IO-360 A1B",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
+    "GLASAIR II RG (1989 - 2012)": {
+      "manufacturer_name": "GLASAIR AVIATION",
+      "aircraft_name": "GLASAIR II RG (1989 - 2012)",
+      "source_link": "/wizard/details/1088/GLASAIR-AVIATION-GLASAIR-II-RG-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1088/GLASAIR-AVIATION-GLASAIR-II-RG-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "192 kt",
+        "best_range_i": "1,544 nm",
+        "fuel_burn": "10 gph",
+        "horsepower": "180 HP",
+        "rate_of_climb": "1,700 fpm",
+        "stall_speed": "63 kt"
+      },
+      "weights": {
+        "empty_weight": "1,350 lbs",
+        "fuel_capacity": "81 gal",
+        "fuel_weight": "486 lbs",
+        "gross_weight": "2,100 lbs",
+        "payload_full_fuel": "264 lbs",
+        "useful_load": "750 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "180 HP",
+        "manufacturer": "Lycoming",
+        "model": "O-360",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
+    "GLASAIR III (1986 - 2016)": {
+      "manufacturer_name": "GLASAIR AVIATION",
+      "aircraft_name": "GLASAIR III (1986 - 2016)",
+      "source_link": "/wizard/details/1089/GLASAIR-AVIATION-GLASAIR-III-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1089/GLASAIR-AVIATION-GLASAIR-III-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "242 kt",
+        "best_range_i": "1,265 nm",
+        "ceiling": "24,000 ft",
+        "fuel_burn": "15.5 gph",
+        "horsepower": "300 HP",
+        "rate_of_climb": "2,140 fpm",
+        "stall_speed": "68 kt"
+      },
+      "weights": {
+        "empty_weight": "1,625 lbs",
+        "fuel_capacity": "81 gal",
+        "fuel_weight": "486 lbs",
+        "gross_weight": "2,400 lbs",
+        "payload_full_fuel": "289 lbs",
+        "useful_load": "775 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "300 HP",
+        "manufacturer": "Lycoming",
+        "model": "IO-540-K1H5",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
+    "GLASTAR (1994 - 2004)": {
+      "manufacturer_name": "GLASAIR AVIATION",
+      "aircraft_name": "GLASTAR (1994 - 2004)",
+      "source_link": "/wizard/details/1090/GLASAIR-AVIATION-GLASTAR-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1090/GLASAIR-AVIATION-GLASTAR-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "140 kt",
+        "best_range_i": "829 nm",
+        "ceiling": "20,000 ft",
+        "fuel_burn": "7.6 gph",
+        "horsepower": "160 HP",
+        "rate_of_climb": "1,390 fpm",
+        "stall_speed": "43 kt"
+      },
+      "weights": {
+        "empty_weight": "1,200 lbs",
+        "fuel_capacity": "45 gal",
+        "fuel_weight": "270 lbs",
+        "gross_weight": "1,960 lbs",
+        "payload_full_fuel": "490 lbs",
+        "useful_load": "760 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "160 HP",
+        "manufacturer": "Lycoming",
+        "model": "O-320",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
     "GlaStar (1994 - 2004)": {
       "manufacturer_name": "GLASAIR AVIATION",
       "aircraft_name": "GlaStar (1994 - 2004)",
@@ -46946,27 +49130,31 @@
       "papi_price_estimate": null,
       "for_sale_count": "0",
       "performance": {
-        "best_cruise_speed": "140 KIAS",
-        "best_range_i": "829 NM",
-        "ceiling": "20,000 FT",
+        "best_cruise_speed": "140 kt",
+        "best_range_i": "829 nm",
+        "ceiling": "20,000 ft",
+        "fuel_burn": "7.6 gph",
         "fuel_burn_75": "7.6 GPH",
-        "horsepower": "1 x 160 HP",
+        "horsepower": "160 HP",
         "landing_distance": "375 FT",
-        "rate_of_climb": "1,390 FPM",
-        "stall_speed": "43 KIAS",
+        "rate_of_climb": "1,390 fpm",
+        "stall_speed": "43 kt",
         "takeoff_distance": "400 FT"
       },
       "weights": {
-        "empty_weight": "1,200 LBS",
-        "fuel_capacity": "45 GAL",
-        "gross_weight": "1,960 LBS"
+        "empty_weight": "1,200 lbs",
+        "fuel_capacity": "45 gal",
+        "fuel_weight": "270 lbs",
+        "gross_weight": "1,960 lbs",
+        "payload_full_fuel": "490 lbs",
+        "useful_load": "760 lbs"
       },
       "ownership_costs": {},
       "engine": {
         "horsepower": "160 HP",
         "manufacturer": "Lycoming",
         "model": "O-320",
-        "overhaul_ht": "2,000 Hrs"
+        "overhaul_ht": "2,000 hrs"
       },
       "images": []
     },
@@ -46980,25 +49168,29 @@
       "papi_price_estimate": null,
       "for_sale_count": "0",
       "performance": {
-        "best_cruise_speed": "175 KIAS",
-        "best_range_i": "1,023 NM",
-        "ceiling": "19,000 FT",
+        "best_cruise_speed": "175 kt",
+        "best_range_i": "1,023 nm",
+        "ceiling": "19,000 ft",
+        "fuel_burn": "10 gph",
         "fuel_burn_75": "10.0 GPH",
-        "horsepower": "1 x 200 HP",
-        "rate_of_climb": "1,500 FPM",
-        "stall_speed": "56 KIAS"
+        "horsepower": "200 HP",
+        "rate_of_climb": "1,500 fpm",
+        "stall_speed": "56 kt"
       },
       "weights": {
-        "empty_weight": "1,368 LBS",
-        "fuel_capacity": "59 GAL",
-        "gross_weight": "2,200 LBS"
+        "empty_weight": "1,368 lbs",
+        "fuel_capacity": "59 gal",
+        "fuel_weight": "354 lbs",
+        "gross_weight": "2,200 lbs",
+        "payload_full_fuel": "478 lbs",
+        "useful_load": "832 lbs"
       },
       "ownership_costs": {},
       "engine": {
         "horsepower": "200 HP",
         "manufacturer": "Lycoming",
         "model": "IO-360 A1B",
-        "overhaul_ht": "2,000 Hrs"
+        "overhaul_ht": "2,000 hrs"
       },
       "images": []
     },
@@ -47012,24 +49204,28 @@
       "papi_price_estimate": null,
       "for_sale_count": "0",
       "performance": {
-        "best_cruise_speed": "192 KIAS",
-        "best_range_i": "1,544 NM",
+        "best_cruise_speed": "192 kt",
+        "best_range_i": "1,544 nm",
+        "fuel_burn": "10 gph",
         "fuel_burn_75": "10.0 GPH",
-        "horsepower": "1 x 180 HP",
-        "rate_of_climb": "1,700 FPM",
-        "stall_speed": "63 KIAS"
+        "horsepower": "180 HP",
+        "rate_of_climb": "1,700 fpm",
+        "stall_speed": "63 kt"
       },
       "weights": {
-        "empty_weight": "1,350 LBS",
-        "fuel_capacity": "81 GAL",
-        "gross_weight": "2,100 LBS"
+        "empty_weight": "1,350 lbs",
+        "fuel_capacity": "81 gal",
+        "fuel_weight": "486 lbs",
+        "gross_weight": "2,100 lbs",
+        "payload_full_fuel": "264 lbs",
+        "useful_load": "750 lbs"
       },
       "ownership_costs": {},
       "engine": {
         "horsepower": "180 HP",
         "manufacturer": "Lycoming",
         "model": "O-360",
-        "overhaul_ht": "2,000 Hrs"
+        "overhaul_ht": "2,000 hrs"
       },
       "images": []
     },
@@ -47043,26 +49239,65 @@
       "papi_price_estimate": null,
       "for_sale_count": "0",
       "performance": {
-        "best_cruise_speed": "242 KIAS",
-        "best_range_i": "1,265 NM",
-        "ceiling": "24,000 FT",
+        "best_cruise_speed": "242 kt",
+        "best_range_i": "1,265 nm",
+        "ceiling": "24,000 ft",
+        "fuel_burn": "15.5 gph",
         "fuel_burn_75": "15.5 GPH",
-        "horsepower": "1 x 300 HP",
-        "rate_of_climb": "2,140 FPM",
-        "stall_speed": "68 KIAS"
+        "horsepower": "300 HP",
+        "rate_of_climb": "2,140 fpm",
+        "stall_speed": "68 kt"
       },
       "weights": {
-        "empty_weight": "1,625 LBS",
-        "fuel_capacity": "81 GAL",
-        "gross_weight": "2,400 LBS"
+        "empty_weight": "1,625 lbs",
+        "fuel_capacity": "81 gal",
+        "fuel_weight": "486 lbs",
+        "gross_weight": "2,400 lbs",
+        "payload_full_fuel": "289 lbs",
+        "useful_load": "775 lbs"
       },
       "ownership_costs": {},
       "engine": {
         "horsepower": "300 HP",
         "manufacturer": "Lycoming",
         "model": "IO-540-K1H5",
-        "overhaul_ht": "2,000 Hrs",
+        "overhaul_ht": "2,000 hrs",
         "years_before_overhaul": "12"
+      },
+      "images": []
+    },
+    "SPORTSMAN 2+2 (2003 - present)": {
+      "manufacturer_name": "GLASAIR AVIATION",
+      "aircraft_name": "SPORTSMAN 2+2 (2003 - present)",
+      "source_link": "/wizard/details/1091/GLASAIR-AVIATION-SPORTSMAN-2-2-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1091/GLASAIR-AVIATION-SPORTSMAN-2-2-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "137 kt",
+        "best_range_i": "721 nm",
+        "ceiling": "20,000 ft",
+        "fuel_burn": "9.5 gph",
+        "horsepower": "180 HP",
+        "rate_of_climb": "1,000 fpm",
+        "stall_speed": "42 kt"
+      },
+      "weights": {
+        "empty_weight": "1,350 lbs",
+        "fuel_capacity": "50 gal",
+        "fuel_weight": "300 lbs",
+        "gross_weight": "2,350 lbs",
+        "payload_full_fuel": "700 lbs",
+        "useful_load": "1,000 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "180 HP",
+        "manufacturer": "Lycoming",
+        "model": "IO-360",
+        "overhaul_ht": "2,000 hrs"
       },
       "images": []
     },
@@ -47076,25 +49311,170 @@
       "papi_price_estimate": null,
       "for_sale_count": "0",
       "performance": {
-        "best_cruise_speed": "137 KIAS",
-        "best_range_i": "721 NM",
-        "ceiling": "20,000 FT",
+        "best_cruise_speed": "137 kt",
+        "best_range_i": "721 nm",
+        "ceiling": "20,000 ft",
+        "fuel_burn": "9.5 gph",
         "fuel_burn_75": "9.5 GPH",
-        "horsepower": "1 x 180 HP",
-        "rate_of_climb": "1,000 FPM",
-        "stall_speed": "42 KIAS"
+        "horsepower": "180 HP",
+        "rate_of_climb": "1,000 fpm",
+        "stall_speed": "42 kt"
       },
       "weights": {
-        "empty_weight": "1,350 LBS",
-        "fuel_capacity": "50 GAL",
-        "gross_weight": "2,350 LBS"
+        "empty_weight": "1,350 lbs",
+        "fuel_capacity": "50 gal",
+        "fuel_weight": "300 lbs",
+        "gross_weight": "2,350 lbs",
+        "payload_full_fuel": "700 lbs",
+        "useful_load": "1,000 lbs"
       },
       "ownership_costs": {},
       "engine": {
         "horsepower": "180 HP",
         "manufacturer": "Lycoming",
         "model": "IO-360",
-        "overhaul_ht": "2,000 Hrs"
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    }
+  },
+  "GREAT LAKES": {
+    "2-T-1 (1929 - 1933)": {
+      "manufacturer_name": "GREAT LAKES",
+      "aircraft_name": "2-T-1 (1929 - 1933)",
+      "source_link": "/wizard/details/1265/GREAT-LAKES-2-T-1-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1265/GREAT-LAKES-2-T-1-specifications-performance-operating-cost-valuation",
+      "title": "1929 - 1933 GREAT LAKES 2-T-1",
+      "description": "Single engine piston aircraft with fixed landing gear. The 2-T-1 seats up to 1 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "0",
+      "performance": {
+        "best_cruise_speed": "83 kt",
+        "horsepower": "85 HP",
+        "best_range_i": "None NM",
+        "fuel_burn_75": "None GPH"
+      },
+      "weights": {
+        "fuel_capacity": "26 gal",
+        "fuel_weight": "156 lbs",
+        "gross_weight": "1,618 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "85 HP",
+        "manufacturer": "American Cirrus",
+        "model": "Mark III",
+        "overhaul_ht": "None Hrs"
+      },
+      "images": []
+    },
+    "2-T-1A-2 (2011 - present)": {
+      "manufacturer_name": "GREAT LAKES",
+      "aircraft_name": "2-T-1A-2 (2011 - present)",
+      "source_link": "/wizard/details/1267/GREAT-LAKES-2-T-1A-2-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1267/GREAT-LAKES-2-T-1A-2-specifications-performance-operating-cost-valuation",
+      "title": "2011 - 2026 GREAT LAKES 2-T-1A-2",
+      "description": "Single engine piston aircraft with fixed landing gear. The 2-T-1A-2 seats up to 1 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "0",
+      "performance": {
+        "best_cruise_speed": "105 kt",
+        "best_range_i": "260 nm",
+        "ceiling": "17,000 ft",
+        "fuel_burn": "11 gph",
+        "horsepower": "180 HP",
+        "rate_of_climb": "1,400 fpm",
+        "stall_speed": "50 kt",
+        "fuel_burn_75": "11.0 GPH",
+        "landing_distance": "1,200 FT",
+        "takeoff_distance": "1,100 FT"
+      },
+      "weights": {
+        "empty_weight": "1,230 lbs",
+        "fuel_capacity": "26 gal",
+        "fuel_weight": "156 lbs",
+        "gross_weight": "1,800 lbs",
+        "payload_full_fuel": "414 lbs",
+        "useful_load": "570 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "180 HP",
+        "manufacturer": "Lycoming",
+        "model": "IO-360-B1F6",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
+    },
+    "2T-1A (1973 - 1982)": {
+      "manufacturer_name": "GREAT LAKES",
+      "aircraft_name": "2T-1A (1973 - 1982)",
+      "source_link": "/wizard/details/1266/GREAT-LAKES-2T-1A-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1266/GREAT-LAKES-2T-1A-specifications-performance-operating-cost-valuation",
+      "title": "1973 - 1982 GREAT LAKES 2T-1A",
+      "description": "Single engine piston aircraft with fixed landing gear. The 2T-1A seats up to 1 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "2",
+      "performance": {
+        "best_cruise_speed": "100 kt",
+        "horsepower": "140 HP",
+        "best_range_i": "None NM",
+        "fuel_burn_75": "None GPH"
+      },
+      "weights": {
+        "fuel_capacity": "26 gal",
+        "fuel_weight": "156 lbs",
+        "gross_weight": "1,750 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "140 HP",
+        "manufacturer": "Lycoming",
+        "model": "O-320-E2A",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": [
+        {
+          "href": "https://cdn.planespotters.net/16459/n122tl-private-great-lakes-2t-1a-2_PlanespottersNet_301154_0620d436eb_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/03745/n12r-private-lockheed-l-1329-jetstar-731_PlanespottersNet_879386_ec8347db1a_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        }
+      ]
+    },
+    "T4M-1 (1928 - 1935)": {
+      "manufacturer_name": "GREAT LAKES",
+      "aircraft_name": "T4M-1 (1928 - 1935)",
+      "source_link": "/wizard/details/1264/GREAT-LAKES-T4M-1-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1264/GREAT-LAKES-T4M-1-specifications-performance-operating-cost-valuation",
+      "title": "1928 - 1935 GREAT LAKES T4M-1",
+      "description": "Single engine piston aircraft with fixed landing gear. The T4M-1 seats up to 2 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "0",
+      "performance": {
+        "best_cruise_speed": "85 kt",
+        "best_range_i": "316 nm",
+        "ceiling": "10,150 ft",
+        "horsepower": "525 HP",
+        "fuel_burn_75": "None GPH"
+      },
+      "weights": {
+        "empty_weight": "5,814 lbs",
+        "gross_weight": "9,503 lbs",
+        "useful_load": "3,689 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "525 HP",
+        "manufacturer": "Pratt & Whitney",
+        "model": "R-1690",
+        "overhaul_ht": "None Hrs"
       },
       "images": []
     }
@@ -48427,22 +50807,23 @@
       "papi_price_estimate": "$1,353,351",
       "for_sale_count": "1",
       "performance": {
-        "best_cruise_speed": "452 KIAS",
-        "best_range_i": "3,071 NM",
-        "ceiling": "43,000 FT",
+        "best_cruise_speed": "452 kt",
+        "best_range_i": "3,071 nm",
+        "ceiling": "43,000 ft",
         "ceiling_1_engine_out": "21,000 FT",
-        "fuel_burn": "227.0 GPH",
+        "fuel_burn": "227 gph",
         "landing_distance": "2,500 FT",
-        "rate_of_climb": "3,577 FPM",
+        "rate_of_climb": "3,577 fpm",
         "rate_of_climb_1_engine_out": "797 FPM",
         "takeoff_distance": "5,950 FT",
         "thrust": "2 x 5,220 N"
       },
       "weights": {
-        "empty_weight": "18,000 LBS",
+        "empty_weight": "18,000 lbs",
         "fuel_capacity": "11,400 LBS",
-        "gross_weight": "31,000 LBS",
-        "maximum_payload": "2,300 LBS"
+        "gross_weight": "31,000 lbs",
+        "maximum_payload": "2,300 LBS",
+        "useful_load": "13,000 lbs"
       },
       "ownership_costs": {
         "pilot_salary_taxes_and_benefits": "Pilot training"
@@ -48450,7 +50831,7 @@
       "engine": {
         "manufacturer": "Pratt & Whitney",
         "model": "PW305B",
-        "overhaul_ht": "7,200 Hrs",
+        "overhaul_ht": "7,200 hrs",
         "thrust": "5,220 N"
       },
       "images": [
@@ -48553,22 +50934,25 @@
       "papi_price_estimate": "$2,924,113",
       "for_sale_count": "8",
       "performance": {
-        "best_cruise_speed": "470 KIAS",
-        "best_range_i": "3,280 NM",
-        "ceiling": "45,000 FT",
+        "best_cruise_speed": "470 kt",
+        "best_range_i": "3,280 nm",
+        "ceiling": "45,000 ft",
         "ceiling_1_engine_out": "28,000 FT",
-        "fuel_burn": "268.0 GPH",
+        "fuel_burn": "268 gph",
         "landing_distance": "2,995 FT",
-        "rate_of_climb": "2,300 FPM",
+        "rate_of_climb": "2,300 fpm",
         "rate_of_climb_1_engine_out": "576 FPM",
         "takeoff_distance": "5,200 FT",
         "thrust": "2 x 6,900 N"
       },
       "weights": {
-        "empty_weight": "23,500 LBS",
-        "fuel_capacity": "2,180 GAL",
-        "gross_weight": "39,500 LBS",
-        "maximum_payload": "2,500 LBS"
+        "empty_weight": "23,500 lbs",
+        "fuel_capacity": "2,180 gal",
+        "fuel_weight": "13,080 lbs",
+        "gross_weight": "39,500 lbs",
+        "maximum_payload": "2,500 LBS",
+        "payload_full_fuel": "2,920 lbs",
+        "useful_load": "16,000 lbs"
       },
       "ownership_costs": {
         "depreciation": "$105,716.34",
@@ -48591,7 +50975,7 @@
       "engine": {
         "manufacturer": "Pratt & Whitney",
         "model": "PW308A",
-        "overhaul_ht": "6,000 Hrs",
+        "overhaul_ht": "6,000 hrs",
         "thrust": "6,900 N"
       },
       "images": [
@@ -48643,21 +51027,22 @@
       "papi_price_estimate": "$878,491",
       "for_sale_count": "22",
       "performance": {
-        "best_cruise_speed": "458 KIAS",
-        "best_range_i": "1,519 NM",
-        "ceiling": "45,000 FT",
-        "fuel_burn": "190.0 GPH",
+        "best_cruise_speed": "458 kt",
+        "best_range_i": "1,519 nm",
+        "ceiling": "45,000 ft",
+        "fuel_burn": "190 gph",
         "landing_distance": "2,730 FT",
-        "rate_of_climb": "3,770 FPM",
+        "rate_of_climb": "3,770 fpm",
         "rate_of_climb_1_engine_out": "560 FPM",
         "takeoff_distance": "4,600 FT",
         "thrust": "2 x 2,900 N"
       },
       "weights": {
-        "empty_weight": "10,050 LBS",
+        "empty_weight": "10,050 lbs",
         "fuel_capacity": "4,912 LBS",
-        "gross_weight": "16,100 LBS",
-        "maximum_payload": "2,085 LBS"
+        "gross_weight": "16,100 lbs",
+        "maximum_payload": "2,085 LBS",
+        "useful_load": "6,050 lbs"
       },
       "ownership_costs": {
         "pilot_salary_taxes_and_benefits": "Pilot training"
@@ -48665,7 +51050,7 @@
       "engine": {
         "manufacturer": "Pratt & Whitney",
         "model": "JT15D-5",
-        "overhaul_ht": "3,600 Hrs",
+        "overhaul_ht": "3,600 hrs",
         "thrust": "2,900 N"
       },
       "images": [
@@ -48687,22 +51072,23 @@
       "papi_price_estimate": "$1,697,519",
       "for_sale_count": "22",
       "performance": {
-        "best_cruise_speed": "450 KIAS",
-        "best_range_i": "1,500 NM",
-        "ceiling": "45,000 FT",
+        "best_cruise_speed": "450 kt",
+        "best_range_i": "1,500 nm",
+        "ceiling": "45,000 ft",
         "ceiling_1_engine_out": "20,600 FT",
-        "fuel_burn": "191.0 GPH",
+        "fuel_burn": "191 gph",
         "landing_distance": "2,960 FT",
-        "rate_of_climb": "4,020 FPM",
+        "rate_of_climb": "4,020 fpm",
         "rate_of_climb_1_engine_out": "305 FPM",
         "takeoff_distance": "3,905 FT",
         "thrust": "2 x 2,965 N"
       },
       "weights": {
-        "empty_weight": "10,985 LBS",
+        "empty_weight": "10,985 lbs",
         "fuel_capacity": "4,912 LBS",
-        "gross_weight": "16,300 LBS",
-        "maximum_payload": "2,015 LBS"
+        "gross_weight": "16,300 lbs",
+        "maximum_payload": "2,015 LBS",
+        "useful_load": "5,315 lbs"
       },
       "ownership_costs": {
         "pilot_salary_taxes_and_benefits": "Pilot training"
@@ -48710,7 +51096,7 @@
       "engine": {
         "manufacturer": "Pratt & Whitney",
         "model": "JT15D-5",
-        "overhaul_ht": "3,600 Hrs",
+        "overhaul_ht": "3,600 hrs",
         "thrust": "2,965 N"
       },
       "images": []
@@ -48981,22 +51367,23 @@
       "papi_price_estimate": "$2,146,852",
       "for_sale_count": "81",
       "performance": {
-        "best_cruise_speed": "447 KIAS",
-        "best_range_i": "2,590 NM",
-        "ceiling": "41,000 FT",
+        "best_cruise_speed": "447 kt",
+        "best_range_i": "2,590 nm",
+        "ceiling": "41,000 ft",
         "ceiling_1_engine_out": "18,800 FT",
-        "fuel_burn": "228.0 GPH",
+        "fuel_burn": "228 gph",
         "landing_distance": "2,245 FT",
-        "rate_of_climb": "3,415 FPM",
+        "rate_of_climb": "3,415 fpm",
         "rate_of_climb_1_engine_out": "354 FPM",
         "takeoff_distance": "5,032 FT",
         "thrust": "2 x 4,660 N"
       },
       "weights": {
-        "empty_weight": "16,250 LBS",
+        "empty_weight": "16,250 lbs",
         "fuel_capacity": "10,000 LBS",
-        "gross_weight": "28,000 LBS",
-        "maximum_payload": "2,200 LBS"
+        "gross_weight": "28,000 lbs",
+        "maximum_payload": "2,200 LBS",
+        "useful_load": "11,750 lbs"
       },
       "ownership_costs": {
         "depreciation": "$39,326.82",
@@ -49019,7 +51406,7 @@
       "engine": {
         "manufacturer": "Honeywell",
         "model": "TFE 731-5BR",
-        "overhaul_ht": "4,200 Hrs",
+        "overhaul_ht": "4,200 hrs",
         "thrust": "4,660 N"
       },
       "images": [
@@ -49071,22 +51458,23 @@
       "papi_price_estimate": "$2,958,757",
       "for_sale_count": "81",
       "performance": {
-        "best_cruise_speed": "448 KIAS",
-        "best_range_i": "2,642 NM",
-        "ceiling": "41,000 FT",
+        "best_cruise_speed": "448 kt",
+        "best_range_i": "2,642 nm",
+        "ceiling": "41,000 ft",
         "ceiling_1_engine_out": "18,800 FT",
-        "fuel_burn": "276.0 GPH",
+        "fuel_burn": "276 gph",
         "landing_distance": "2,245 FT",
-        "rate_of_climb": "3,415 FPM",
+        "rate_of_climb": "3,415 fpm",
         "rate_of_climb_1_engine_out": "470 FPM",
         "takeoff_distance": "5,032 FT",
         "thrust": "2 x 4,660 N"
       },
       "weights": {
-        "empty_weight": "15,670 LBS",
+        "empty_weight": "15,670 lbs",
         "fuel_capacity": "10,000 LBS",
-        "gross_weight": "28,000 LBS",
-        "maximum_payload": "2,120 LBS"
+        "gross_weight": "28,000 lbs",
+        "maximum_payload": "2,120 LBS",
+        "useful_load": "12,330 lbs"
       },
       "ownership_costs": {
         "depreciation": "$102,796.43",
@@ -49109,7 +51497,7 @@
       "engine": {
         "manufacturer": "Honeywell",
         "model": "TFE 731-5BR",
-        "overhaul_ht": "4,200 Hrs",
+        "overhaul_ht": "4,200 hrs",
         "thrust": "4,660 N"
       },
       "images": [
@@ -49161,22 +51549,23 @@
       "papi_price_estimate": "$3,755,145",
       "for_sale_count": "81",
       "performance": {
-        "best_cruise_speed": "446 KIAS",
-        "best_range_i": "2,790 NM",
-        "ceiling": "41,000 FT",
+        "best_cruise_speed": "446 kt",
+        "best_range_i": "2,790 nm",
+        "ceiling": "41,000 ft",
         "ceiling_1_engine_out": "21,800 FT",
-        "fuel_burn": "229.0 GPH",
+        "fuel_burn": "229 gph",
         "landing_distance": "2,280 FT",
-        "rate_of_climb": "3,415 FPM",
+        "rate_of_climb": "3,415 fpm",
         "rate_of_climb_1_engine_out": "428 FPM",
         "takeoff_distance": "4,965 FT",
         "thrust": "2 x 4,660 N"
       },
       "weights": {
-        "empty_weight": "16,500 LBS",
+        "empty_weight": "16,500 lbs",
         "fuel_capacity": "10,000 LBS",
-        "gross_weight": "28,000 LBS",
-        "maximum_payload": "1,950 LBS"
+        "gross_weight": "28,000 lbs",
+        "maximum_payload": "1,950 LBS",
+        "useful_load": "11,500 lbs"
       },
       "ownership_costs": {
         "depreciation": "$137,021.08",
@@ -49199,7 +51588,7 @@
       "engine": {
         "manufacturer": "Honeywell",
         "model": "TFE 731-50R",
-        "overhaul_ht": "6,000 Hrs",
+        "overhaul_ht": "6,000 hrs",
         "thrust": "4,660 N"
       },
       "images": [
@@ -49391,6 +51780,41 @@
         "overhaul_ht": "2,000 Hrs"
       },
       "images": []
+    },
+    "J230-D (2011 - present)": {
+      "manufacturer_name": "JABIRU AIRCRAFT PTY LTD",
+      "aircraft_name": "J230-D (2011 - present)",
+      "source_link": "/wizard/details/1269/JABIRU-AIRCRAFT-PTY-LTD-J230-D-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1269/JABIRU-AIRCRAFT-PTY-LTD-J230-D-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "120 kt",
+        "best_range_i": "675 nm",
+        "ceiling": "15,000 ft",
+        "fuel_burn": "6.3 gph",
+        "horsepower": "120 HP",
+        "rate_of_climb": "1,000 fpm",
+        "stall_speed": "40 kt"
+      },
+      "weights": {
+        "empty_weight": "816 lbs",
+        "fuel_capacity": "35 gal",
+        "fuel_weight": "210 lbs",
+        "gross_weight": "1,323 lbs",
+        "payload_full_fuel": "297 lbs",
+        "useful_load": "507 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "120 HP",
+        "manufacturer": "Jabiru",
+        "model": "3300A",
+        "overhaul_ht": "2,000 hrs"
+      },
+      "images": []
     }
   },
   "KNIGHT": {
@@ -49437,14 +51861,15 @@
       "papi_price_estimate": null,
       "for_sale_count": "0",
       "performance": {
-        "best_cruise_speed": "83 KIAS",
+        "best_cruise_speed": "83 kt",
         "best_range_i": "None NM",
         "fuel_burn_75": "None GPH",
-        "horsepower": "1 x 85 HP"
+        "horsepower": "85 HP"
       },
       "weights": {
-        "fuel_capacity": "26 GAL",
-        "gross_weight": "1,618 LBS"
+        "fuel_capacity": "26 gal",
+        "fuel_weight": "156 lbs",
+        "gross_weight": "1,618 lbs"
       },
       "ownership_costs": {},
       "engine": {
@@ -49465,27 +51890,31 @@
       "papi_price_estimate": null,
       "for_sale_count": "0",
       "performance": {
-        "best_cruise_speed": "105 KIAS",
-        "best_range_i": "260 NM",
-        "ceiling": "17,000 FT",
+        "best_cruise_speed": "105 kt",
+        "best_range_i": "260 nm",
+        "ceiling": "17,000 ft",
+        "fuel_burn": "11 gph",
         "fuel_burn_75": "11.0 GPH",
-        "horsepower": "1 x 180 HP",
+        "horsepower": "180 HP",
         "landing_distance": "1,200 FT",
-        "rate_of_climb": "1,400 FPM",
-        "stall_speed": "50 KIAS",
+        "rate_of_climb": "1,400 fpm",
+        "stall_speed": "50 kt",
         "takeoff_distance": "1,100 FT"
       },
       "weights": {
-        "empty_weight": "1,230 LBS",
-        "fuel_capacity": "26 GAL",
-        "gross_weight": "1,800 LBS"
+        "empty_weight": "1,230 lbs",
+        "fuel_capacity": "26 gal",
+        "fuel_weight": "156 lbs",
+        "gross_weight": "1,800 lbs",
+        "payload_full_fuel": "414 lbs",
+        "useful_load": "570 lbs"
       },
       "ownership_costs": {},
       "engine": {
         "horsepower": "180 HP",
         "manufacturer": "Lycoming",
         "model": "IO-360-B1F6",
-        "overhaul_ht": "2,000 Hrs"
+        "overhaul_ht": "2,000 hrs"
       },
       "images": []
     },
@@ -49499,21 +51928,22 @@
       "papi_price_estimate": null,
       "for_sale_count": "2",
       "performance": {
-        "best_cruise_speed": "100 KIAS",
+        "best_cruise_speed": "100 kt",
         "best_range_i": "None NM",
         "fuel_burn_75": "None GPH",
-        "horsepower": "1 x 140 HP"
+        "horsepower": "140 HP"
       },
       "weights": {
-        "fuel_capacity": "26 GAL",
-        "gross_weight": "1,750 LBS"
+        "fuel_capacity": "26 gal",
+        "fuel_weight": "156 lbs",
+        "gross_weight": "1,750 lbs"
       },
       "ownership_costs": {},
       "engine": {
         "horsepower": "140 HP",
         "manufacturer": "Lycoming",
         "model": "O-320-E2A",
-        "overhaul_ht": "2,000 Hrs"
+        "overhaul_ht": "2,000 hrs"
       },
       "images": [
         {
@@ -49883,15 +52313,16 @@
       "papi_price_estimate": null,
       "for_sale_count": "0",
       "performance": {
-        "best_cruise_speed": "85 KIAS",
-        "best_range_i": "316 NM",
-        "ceiling": "10,150 FT",
+        "best_cruise_speed": "85 kt",
+        "best_range_i": "316 nm",
+        "ceiling": "10,150 ft",
         "fuel_burn_75": "None GPH",
-        "horsepower": "1 x 525 HP"
+        "horsepower": "525 HP"
       },
       "weights": {
-        "empty_weight": "5,814 LBS",
-        "gross_weight": "9,503 LBS"
+        "empty_weight": "5,814 lbs",
+        "gross_weight": "9,503 lbs",
+        "useful_load": "3,689 lbs"
       },
       "ownership_costs": {},
       "engine": {
@@ -52302,16 +54733,19 @@
       "papi_price_estimate": null,
       "for_sale_count": "0",
       "performance": {
-        "best_cruise_speed": "483 KIAS",
-        "best_range_i": "5,200 NM",
-        "fuel_burn": "2,255.0 GPH",
+        "best_cruise_speed": "483 kt",
+        "best_range_i": "5,200 nm",
+        "fuel_burn": "2255 gph",
         "thrust": "4 x None N"
       },
       "weights": {
-        "empty_weight": "143,255 LBS",
-        "fuel_capacity": "24,275 GAL",
-        "gross_weight": "350,000 LBS",
-        "maximum_payload": "51,745 LBS"
+        "empty_weight": "143,255 lbs",
+        "fuel_capacity": "24,275 gal",
+        "fuel_weight": "145,650 lbs",
+        "gross_weight": "350,000 lbs",
+        "maximum_payload": "51,745 LBS",
+        "payload_full_fuel": "61,095 lbs",
+        "useful_load": "206,745 lbs"
       },
       "ownership_costs": {
         "pilot_salary_taxes_and_benefits": "Pilot training"
@@ -52534,19 +54968,22 @@
       "papi_price_estimate": null,
       "for_sale_count": "0",
       "performance": {
-        "best_cruise_speed": "438 KIAS",
-        "best_range_i": "2,000 NM",
-        "ceiling": "37,000 FT",
-        "fuel_burn": "1,356.0 GPH",
+        "best_cruise_speed": "438 kt",
+        "best_range_i": "2,000 nm",
+        "ceiling": "37,000 ft",
+        "fuel_burn": "1356 gph",
         "landing_distance": "5,250 FT",
         "takeoff_distance": "7,107 FT",
         "thrust": "2 x 25,000 N"
       },
       "weights": {
-        "empty_weight": "88,200 LBS",
-        "fuel_capacity": "6,192 GAL",
-        "gross_weight": "160,500 LBS",
-        "maximum_payload": "41,800 LBS"
+        "empty_weight": "88,200 lbs",
+        "fuel_capacity": "6,192 gal",
+        "fuel_weight": "37,152 lbs",
+        "gross_weight": "160,500 lbs",
+        "maximum_payload": "41,800 LBS",
+        "payload_full_fuel": "35,148 lbs",
+        "useful_load": "72,300 lbs"
       },
       "ownership_costs": {
         "pilot_salary_taxes_and_benefits": "Pilot training"
@@ -55540,6 +57977,39 @@
         "manufacturer": "Lycoming",
         "model": "GSO-480-B1C6",
         "overhaul_ht": "1,400 Hrs"
+      },
+      "images": []
+    },
+    "P.180 Avanti (1990 - 2013)": {
+      "manufacturer_name": "PIAGGIO AERO INDUSTRIES",
+      "aircraft_name": "P.180 Avanti (1990 - 2013)",
+      "source_link": "/wizard/details/1203/PIAGGIO-AERO-INDUSTRIES-P-180-Avanti-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1203/PIAGGIO-AERO-INDUSTRIES-P-180-Avanti-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "260 kt",
+        "best_range_i": "1,400 nm",
+        "ceiling": "41,000 ft",
+        "fuel_burn": "69 gph",
+        "horsepower": "850 HP"
+      },
+      "weights": {
+        "empty_weight": "10,270 lbs",
+        "fuel_capacity": "374 gal",
+        "fuel_weight": "2,244 lbs",
+        "gross_weight": "10,810 lbs",
+        "payload_full_fuel": "-1,704 lbs",
+        "useful_load": "540 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "850 HP",
+        "manufacturer": "Pratt & Whitney",
+        "model": "PT6A-66",
+        "overhaul_ht": "3,000 hrs"
       },
       "images": []
     }
@@ -67678,25 +70148,29 @@
       "papi_price_estimate": null,
       "for_sale_count": "1",
       "performance": {
-        "best_cruise_speed": "152 KIAS",
-        "best_range_i": "277 NM",
-        "ceiling": "12,500 FT",
+        "best_cruise_speed": "152 kt",
+        "best_range_i": "277 nm",
+        "ceiling": "12,500 ft",
+        "fuel_burn": "15.4 gph",
         "fuel_burn_75": "15.4 GPH",
-        "horsepower": "1 x 260 HP",
-        "rate_of_climb": "2,700 FPM",
-        "stall_speed": "52 KIAS"
+        "horsepower": "260 HP",
+        "rate_of_climb": "2,700 fpm",
+        "stall_speed": "52 kt"
       },
       "weights": {
-        "empty_weight": "1,150 LBS",
-        "fuel_capacity": "28 GAL",
-        "gross_weight": "1,625 LBS"
+        "empty_weight": "1,150 lbs",
+        "fuel_capacity": "28 gal",
+        "fuel_weight": "168 lbs",
+        "gross_weight": "1,625 lbs",
+        "payload_full_fuel": "307 lbs",
+        "useful_load": "475 lbs"
       },
       "ownership_costs": {},
       "engine": {
         "horsepower": "260 HP",
         "manufacturer": "Lycoming",
         "model": "AEIO-540-D4A5",
-        "overhaul_ht": "2,000 Hrs",
+        "overhaul_ht": "2,000 hrs",
         "years_before_overhaul": "12"
       },
       "images": [
@@ -67748,20 +70222,23 @@
       "papi_price_estimate": "$173,384",
       "for_sale_count": "5",
       "performance": {
-        "best_cruise_speed": "150 KIAS",
-        "best_range_i": "279 NM",
+        "best_cruise_speed": "150 kt",
+        "best_range_i": "279 nm",
         "fuel_burn_75": "None GPH",
-        "horsepower": "1 x 260 HP",
+        "horsepower": "260 HP",
         "landing_distance": "750 FT",
         "landing_distance_over_50ft_obstacle": "1,200 FT",
-        "rate_of_climb": "2,900 FPM",
+        "rate_of_climb": "2,900 fpm",
         "takeoff_distance": "554 FT",
         "takeoff_distance_over_50ft_obstacle": "860 FT"
       },
       "weights": {
-        "empty_weight": "1,155 LBS",
-        "fuel_capacity": "28 GAL",
-        "gross_weight": "1,700 LBS"
+        "empty_weight": "1,155 lbs",
+        "fuel_capacity": "28 gal",
+        "fuel_weight": "168 lbs",
+        "gross_weight": "1,700 lbs",
+        "payload_full_fuel": "377 lbs",
+        "useful_load": "545 lbs"
       },
       "ownership_costs": {
         "annual_inspection_cost": "$2,404.00",
@@ -67775,7 +70252,7 @@
         "horsepower": "260 HP",
         "manufacturer": "Lycoming",
         "model": "AEIO-540-D4A5",
-        "overhaul_ht": "2,000 Hrs",
+        "overhaul_ht": "2,000 hrs",
         "years_before_overhaul": "12"
       },
       "images": [
@@ -67809,23 +70286,26 @@
       "papi_price_estimate": null,
       "for_sale_count": "7",
       "performance": {
-        "best_cruise_speed": "146 KIAS",
+        "best_cruise_speed": "146 kt",
         "best_range_i": "None NM",
         "fuel_burn_75": "None GPH",
-        "horsepower": "1 x 260 HP",
-        "rate_of_climb": "2,700 FPM"
+        "horsepower": "260 HP",
+        "rate_of_climb": "2,700 fpm"
       },
       "weights": {
-        "empty_weight": "1,150 LBS",
-        "fuel_capacity": "33 GAL",
-        "gross_weight": "1,600 LBS"
+        "empty_weight": "1,150 lbs",
+        "fuel_capacity": "33 gal",
+        "fuel_weight": "198 lbs",
+        "gross_weight": "1,600 lbs",
+        "payload_full_fuel": "252 lbs",
+        "useful_load": "450 lbs"
       },
       "ownership_costs": {},
       "engine": {
         "horsepower": "260 HP",
         "manufacturer": "Lycoming",
         "model": "AEIO-540-D4A5",
-        "overhaul_ht": "2,000 Hrs",
+        "overhaul_ht": "2,000 hrs",
         "years_before_overhaul": "12"
       },
       "images": [
@@ -67912,6 +70392,80 @@
           "dimensions": "800x532"
         }
       ]
+    }
+  },
+  "REMOS": {
+    "G-3 (1999 - 2010)": {
+      "manufacturer_name": "REMOS",
+      "aircraft_name": "G-3 (1999 - 2010)",
+      "source_link": "/wizard/details/990/REMOS-G-3-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/990/REMOS-G-3-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "100 kt",
+        "fuel_burn": "5 gph"
+      },
+      "weights": {},
+      "ownership_costs": {},
+      "engine": {},
+      "images": []
+    },
+    "G-3 MIRAGE (1999 - 2010)": {
+      "manufacturer_name": "REMOS",
+      "aircraft_name": "G-3 MIRAGE (1999 - 2010)",
+      "source_link": "/wizard/details/989/REMOS-G-3-MIRAGE-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/989/REMOS-G-3-MIRAGE-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "100 kt",
+        "fuel_burn": "5 gph"
+      },
+      "weights": {},
+      "ownership_costs": {},
+      "engine": {},
+      "images": []
+    },
+    "G-3/600 (2006 - present)": {
+      "manufacturer_name": "REMOS",
+      "aircraft_name": "G-3/600 (2006 - present)",
+      "source_link": "/wizard/details/991/REMOS-G-3-600-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/991/REMOS-G-3-600-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "100 kt",
+        "fuel_burn": "5 gph"
+      },
+      "weights": {},
+      "ownership_costs": {},
+      "engine": {},
+      "images": []
+    },
+    "GX (2006 - present)": {
+      "manufacturer_name": "REMOS",
+      "aircraft_name": "GX (2006 - present)",
+      "source_link": "/wizard/details/988/REMOS-GX-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/988/REMOS-GX-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "100 kt",
+        "fuel_burn": "5 gph"
+      },
+      "weights": {},
+      "ownership_costs": {},
+      "engine": {},
+      "images": []
     }
   },
   "REPUBLIC": {
@@ -68116,29 +70670,337 @@
       "papi_price_estimate": null,
       "for_sale_count": "0",
       "performance": {
-        "best_cruise_speed": "158 KIAS",
-        "best_range_i": "1,266 NM",
-        "ceiling": "18,700 FT",
+        "best_cruise_speed": "158 kt",
+        "best_range_i": "1,266 nm",
+        "ceiling": "18,700 ft",
+        "fuel_burn": "15 gph",
         "fuel_burn_75": "15.0 GPH",
-        "horsepower": "1 x 285 HP",
+        "horsepower": "285 HP",
         "landing_distance_over_50ft_obstacle": "2,170 FT",
-        "rate_of_climb": "1,180 FPM",
-        "stall_speed": "59 KIAS",
+        "rate_of_climb": "1,180 fpm",
+        "stall_speed": "59 kt",
         "takeoff_distance_over_50ft_obstacle": "1,970 FT"
       },
       "weights": {
-        "empty_weight": "1,852 LBS",
-        "fuel_capacity": "120 GAL",
-        "gross_weight": "3,086 LBS"
+        "empty_weight": "1,852 lbs",
+        "fuel_capacity": "120 gal",
+        "fuel_weight": "720 lbs",
+        "gross_weight": "3,086 lbs",
+        "payload_full_fuel": "514 lbs",
+        "useful_load": "1,234 lbs"
       },
       "ownership_costs": {},
       "engine": {
         "horsepower": "285 HP",
         "manufacturer": "Teledyne Continental Tiara",
         "model": "6-285 B",
-        "overhaul_ht": "1,200 Hrs"
+        "overhaul_ht": "1,200 hrs"
       },
       "images": []
+    },
+    "R22 (1980 - 1996)": {
+      "manufacturer_name": "ROBIN",
+      "aircraft_name": "R22 (1980 - 1996)",
+      "source_link": "/wizard/details/1327/ROBINSON-HELICOPTER-CO-R22-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1327/ROBINSON-HELICOPTER-CO-R22-specifications-performance-operating-cost-valuation",
+      "title": "1980 - 1996 ROBINSON HELICOPTER CO R22",
+      "description": "Single engine piston aircraft with fixed landing gear. The R22 seats up to 1 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "57",
+      "performance": {
+        "best_cruise_speed": "85 kt",
+        "best_range_i": "209 nm",
+        "ceiling": "14,000 ft",
+        "fuel_burn": "7 gph",
+        "horsepower": "124 HP",
+        "rate_of_climb": "1,200 fpm",
+        "fuel_burn_75": "7.0 GPH"
+      },
+      "weights": {
+        "empty_weight": "880 lbs",
+        "fuel_capacity": "16 gal",
+        "fuel_weight": "96 lbs",
+        "gross_weight": "1,370 lbs",
+        "payload_full_fuel": "394 lbs",
+        "useful_load": "490 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "124 HP",
+        "manufacturer": "Lycoming",
+        "model": "O-320-A2B",
+        "overhaul_ht": "2,000 hrs",
+        "years_before_overhaul": "12"
+      },
+      "images": [
+        {
+          "href": "/static/acftref/Robinson_R22_1.jpg",
+          "title": "Planephd credits this picture of a ROBINSON HELICOPTER CO R22 to Jeroen Stroes Aviation Photography, who released it under the GNU Free Documentation License, Version 1.2 only license.",
+          "holder": "Jeroen Stroes Aviation Photography",
+          "dimensions": "805x493"
+        }
+      ]
+    },
+    "R22 Beta II (1997 - present)": {
+      "manufacturer_name": "ROBIN",
+      "aircraft_name": "R22 Beta II (1997 - present)",
+      "source_link": "/wizard/details/1328/ROBINSON-HELICOPTER-CO-R22-Beta-II-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1328/ROBINSON-HELICOPTER-CO-R22-Beta-II-specifications-performance-operating-cost-valuation",
+      "title": "1997 - 2026 ROBINSON HELICOPTER CO R22 Beta II",
+      "description": "Single engine piston aircraft with fixed landing gear. The R22 Beta II seats up to 1 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "57",
+      "performance": {
+        "best_cruise_speed": "89 kt",
+        "best_range_i": "250 nm",
+        "ceiling": "14,000 ft",
+        "fuel_burn": "9.4 gph",
+        "horsepower": "131 HP",
+        "rate_of_climb": "1,270 fpm",
+        "fuel_burn_75": "9.4 GPH"
+      },
+      "weights": {
+        "empty_weight": "880 lbs",
+        "fuel_capacity": "26 gal",
+        "fuel_weight": "156 lbs",
+        "gross_weight": "1,370 lbs",
+        "payload_full_fuel": "334 lbs",
+        "useful_load": "490 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "131 HP",
+        "manufacturer": "Lycoming",
+        "model": "O-360-J2A",
+        "overhaul_ht": "2,000 hrs",
+        "years_before_overhaul": "12"
+      },
+      "images": [
+        {
+          "href": "/static/acftref/Robinson_R22_Beta_2_1.jpg",
+          "title": "Planephd credits this picture of a ROBINSON HELICOPTER CO R22 Beta II to Hengist Decius, who released it under the GNU Free Documentation License, Version 1.2 only license.",
+          "holder": "Hengist Decius",
+          "dimensions": "3008x2000"
+        },
+        {
+          "href": "https://cdn.planespotters.net/35321/n194le-private-bombardier-bd-100-1a10-challenger-300_PlanespottersNet_245529_d33d5b5810_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/08614/n276sh-private-robinson-helicopter-r22-beta_PlanespottersNet_896851_c6584db8ff_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/13885/n7026u-united-airlines-boeing-727-022_PlanespottersNet_684166_99bacfa495_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "424x280"
+        }
+      ]
+    },
+    "R44  (1993 - 2000)": {
+      "manufacturer_name": "ROBIN",
+      "aircraft_name": "R44  (1993 - 2000)",
+      "source_link": "/wizard/details/1332/ROBINSON-HELICOPTER-CO-R44--specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1332/ROBINSON-HELICOPTER-CO-R44--specifications-performance-operating-cost-valuation",
+      "title": "1993 - 2000 ROBINSON HELICOPTER CO R44",
+      "description": "Single engine piston aircraft with fixed landing gear. The R44 seats up to 3 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "287",
+      "performance": {
+        "best_cruise_speed": "108 kt",
+        "best_range_i": "300 nm",
+        "ceiling": "14,000 ft",
+        "fuel_burn": "11.2 gph",
+        "horsepower": "205 HP",
+        "rate_of_climb": "1,000 fpm",
+        "fuel_burn_75": "11.2 GPH"
+      },
+      "weights": {
+        "empty_weight": "1,450 lbs",
+        "fuel_capacity": "29 gal",
+        "fuel_weight": "174 lbs",
+        "gross_weight": "2,400 lbs",
+        "payload_full_fuel": "776 lbs",
+        "useful_load": "950 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "205 HP",
+        "manufacturer": "Lycoming",
+        "model": "O-540",
+        "overhaul_ht": "2,000 hrs",
+        "years_before_overhaul": "12"
+      },
+      "images": [
+        {
+          "href": "/static/acftref/Robinson_R44_1.jpg",
+          "title": "Planephd credits this picture of a ROBINSON HELICOPTER CO R44  to Dmitry A. Mottl, who released it under the GNU Free Documentation License, Version 1.2 only license.",
+          "holder": "Dmitry A. Mottl",
+          "dimensions": "1000x667"
+        },
+        {
+          "href": "https://cdn.planespotters.net/14523/n101tv-trans-international-airlines-mcdonnell-douglas-dc-10-30cf_PlanespottersNet_117779_449a46daba_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "413x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/01179/n443dc-private-robinson-helicopter-r44-raven_PlanespottersNet_704784_5aad5f6c54_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        }
+      ]
+    },
+    "R44 RAVEN II (2003 - present)": {
+      "manufacturer_name": "ROBIN",
+      "aircraft_name": "R44 RAVEN II (2003 - present)",
+      "source_link": "/wizard/details/1333/ROBINSON-HELICOPTER-CO-R44-RAVEN-II-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1333/ROBINSON-HELICOPTER-CO-R44-RAVEN-II-specifications-performance-operating-cost-valuation",
+      "title": "2003 - 2026 ROBINSON HELICOPTER CO R44 RAVEN II",
+      "description": "Single engine piston aircraft with fixed landing gear. The R44 RAVEN II seats up to 3 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "287",
+      "performance": {
+        "best_cruise_speed": "109 kt",
+        "best_range_i": "300 nm",
+        "ceiling": "14,000 ft",
+        "fuel_burn": "16 gph",
+        "horsepower": "245 HP",
+        "rate_of_climb": "1,050 fpm",
+        "fuel_burn_75": "16.0 GPH"
+      },
+      "weights": {
+        "empty_weight": "1,505 lbs",
+        "fuel_capacity": "46 gal",
+        "fuel_weight": "276 lbs",
+        "gross_weight": "2,500 lbs",
+        "payload_full_fuel": "719 lbs",
+        "useful_load": "995 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "horsepower": "245 HP",
+        "manufacturer": "Lycoming",
+        "model": "IO-540-AE1A5",
+        "overhaul_ht": "1,800 hrs",
+        "years_before_overhaul": "12"
+      },
+      "images": [
+        {
+          "href": "/static/acftref/Robinson_R44_II_1.jpg",
+          "title": "Planephd credits this picture of a ROBINSON HELICOPTER CO R44 RAVEN II to D. Miller, who released it under the Creative Commons Attribution 2.0 Generic license.",
+          "holder": "D. Miller",
+          "dimensions": "2816x1887"
+        },
+        {
+          "href": "https://cdn.planespotters.net/30265/n944ar-private-robinson-helicopter-r44-raven-ii_PlanespottersNet_1063986_b4dc9eab20_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/06322/n133aa-american-airlines-mcdonnell-douglas-dc-10-10_PlanespottersNet_421065_402d2598dd_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/03272/n183ty-private-robinson-helicopter-r44-raven-ii_PlanespottersNet_1214954_7ad852db6c_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/22170/n196dm-private-robinson-helicopter-r44-raven-ii_PlanespottersNet_1171029_6516acf90e_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/34909/n251lf-lacsa-lineas-aereas-costarricenses-boeing-737-2l9a_PlanespottersNet_322056_720f8a80fb_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        }
+      ]
+    },
+    "R66 (2011 - present)": {
+      "manufacturer_name": "ROBIN",
+      "aircraft_name": "R66 (2011 - present)",
+      "source_link": "/wizard/details/1331/ROBINSON-HELICOPTER-CO-R66-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/1331/ROBINSON-HELICOPTER-CO-R66-specifications-performance-operating-cost-valuation",
+      "title": "2011 - 2026 ROBINSON HELICOPTER CO R66",
+      "description": "Single engine aircraft with fixed landing gear. The R66 seats up to 4 passengers plus 1 pilot.",
+      "papi_price_estimate": null,
+      "for_sale_count": "82",
+      "performance": {
+        "best_cruise_speed": "110 kt",
+        "best_range_i": "350 nm",
+        "ceiling": "14,000 ft",
+        "fuel_burn": "23.1 gph",
+        "rate_of_climb": "1,080 fpm",
+        "fuel_burn_75": "23.1 GPH",
+        "horsepower": "1 x None HP"
+      },
+      "weights": {
+        "empty_weight": "1,290 lbs",
+        "fuel_capacity": "73 gal",
+        "fuel_weight": "438 lbs",
+        "gross_weight": "2,700 lbs",
+        "payload_full_fuel": "972 lbs",
+        "useful_load": "1,410 lbs"
+      },
+      "ownership_costs": {},
+      "engine": {
+        "manufacturer": "Rolls Royce",
+        "model": "RR300",
+        "overhaul_ht": "3,500 hrs",
+        "horsepower": "None HP"
+      },
+      "images": [
+        {
+          "href": "/static/acftref/Robinson_R66_1.jpg",
+          "title": "Planephd credits this picture of a ROBINSON HELICOPTER CO R66 to Alan Wilson, who released it under the GNU Free Documentation License, Version 1.2 only license.",
+          "holder": "Alan Wilson",
+          "dimensions": "3714x2315"
+        },
+        {
+          "href": "https://cdn.planespotters.net/27799/n88sf-private-cessna-560xl-citation-excel_PlanespottersNet_229210_83e12b61d0_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/42077/n102sw-southwest-airlines-boeing-737-2h4a_PlanespottersNet_1122567_e307d0ba94_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/16554/n123r-private-robinson-r66-turbine-marine_PlanespottersNet_1192215_653828990e_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/36801/n322ac-private-robinson-r66-turbine-marine_PlanespottersNet_1175571_858128ee37_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "420x280"
+        },
+        {
+          "href": "https://cdn.planespotters.net/01426/n42lk-private-robinson-helicopter-r66_PlanespottersNet_683012_42d9040db2_280.jpg",
+          "title": "",
+          "holder": "planespotters.net",
+          "dimensions": "419x280"
+        }
+      ]
     }
   },
   "ROBINSON HELICOPTER CO": {
@@ -68152,24 +71014,28 @@
       "papi_price_estimate": null,
       "for_sale_count": "57",
       "performance": {
-        "best_cruise_speed": "85 KIAS",
-        "best_range_i": "209 NM",
-        "ceiling": "14,000 FT",
+        "best_cruise_speed": "85 kt",
+        "best_range_i": "209 nm",
+        "ceiling": "14,000 ft",
+        "fuel_burn": "7 gph",
         "fuel_burn_75": "7.0 GPH",
-        "horsepower": "1 x 124 HP",
-        "rate_of_climb": "1,200 FPM"
+        "horsepower": "124 HP",
+        "rate_of_climb": "1,200 fpm"
       },
       "weights": {
-        "empty_weight": "880 LBS",
-        "fuel_capacity": "16 GAL",
-        "gross_weight": "1,370 LBS"
+        "empty_weight": "880 lbs",
+        "fuel_capacity": "16 gal",
+        "fuel_weight": "96 lbs",
+        "gross_weight": "1,370 lbs",
+        "payload_full_fuel": "394 lbs",
+        "useful_load": "490 lbs"
       },
       "ownership_costs": {},
       "engine": {
         "horsepower": "124 HP",
         "manufacturer": "Lycoming",
         "model": "O-320-A2B",
-        "overhaul_ht": "2,000 Hrs",
+        "overhaul_ht": "2,000 hrs",
         "years_before_overhaul": "12"
       },
       "images": [
@@ -68191,24 +71057,28 @@
       "papi_price_estimate": null,
       "for_sale_count": "57",
       "performance": {
-        "best_cruise_speed": "89 KIAS",
-        "best_range_i": "250 NM",
-        "ceiling": "14,000 FT",
+        "best_cruise_speed": "89 kt",
+        "best_range_i": "250 nm",
+        "ceiling": "14,000 ft",
+        "fuel_burn": "9.4 gph",
         "fuel_burn_75": "9.4 GPH",
-        "horsepower": "1 x 131 HP",
-        "rate_of_climb": "1,270 FPM"
+        "horsepower": "131 HP",
+        "rate_of_climb": "1,270 fpm"
       },
       "weights": {
-        "empty_weight": "880 LBS",
-        "fuel_capacity": "26 GAL",
-        "gross_weight": "1,370 LBS"
+        "empty_weight": "880 lbs",
+        "fuel_capacity": "26 gal",
+        "fuel_weight": "156 lbs",
+        "gross_weight": "1,370 lbs",
+        "payload_full_fuel": "334 lbs",
+        "useful_load": "490 lbs"
       },
       "ownership_costs": {},
       "engine": {
         "horsepower": "131 HP",
         "manufacturer": "Lycoming",
         "model": "O-360-J2A",
-        "overhaul_ht": "2,000 Hrs",
+        "overhaul_ht": "2,000 hrs",
         "years_before_overhaul": "12"
       },
       "images": [
@@ -68248,24 +71118,28 @@
       "papi_price_estimate": null,
       "for_sale_count": "287",
       "performance": {
-        "best_cruise_speed": "108 KIAS",
-        "best_range_i": "300 NM",
-        "ceiling": "14,000 FT",
+        "best_cruise_speed": "108 kt",
+        "best_range_i": "300 nm",
+        "ceiling": "14,000 ft",
+        "fuel_burn": "11.2 gph",
         "fuel_burn_75": "11.2 GPH",
-        "horsepower": "1 x 205 HP",
-        "rate_of_climb": "1,000 FPM"
+        "horsepower": "205 HP",
+        "rate_of_climb": "1,000 fpm"
       },
       "weights": {
-        "empty_weight": "1,450 LBS",
-        "fuel_capacity": "29 GAL",
-        "gross_weight": "2,400 LBS"
+        "empty_weight": "1,450 lbs",
+        "fuel_capacity": "29 gal",
+        "fuel_weight": "174 lbs",
+        "gross_weight": "2,400 lbs",
+        "payload_full_fuel": "776 lbs",
+        "useful_load": "950 lbs"
       },
       "ownership_costs": {},
       "engine": {
         "horsepower": "205 HP",
         "manufacturer": "Lycoming",
         "model": "O-540",
-        "overhaul_ht": "2,000 Hrs",
+        "overhaul_ht": "2,000 hrs",
         "years_before_overhaul": "12"
       },
       "images": [
@@ -68299,24 +71173,28 @@
       "papi_price_estimate": null,
       "for_sale_count": "287",
       "performance": {
-        "best_cruise_speed": "109 KIAS",
-        "best_range_i": "300 NM",
-        "ceiling": "14,000 FT",
+        "best_cruise_speed": "109 kt",
+        "best_range_i": "300 nm",
+        "ceiling": "14,000 ft",
+        "fuel_burn": "16 gph",
         "fuel_burn_75": "16.0 GPH",
-        "horsepower": "1 x 245 HP",
-        "rate_of_climb": "1,050 FPM"
+        "horsepower": "245 HP",
+        "rate_of_climb": "1,050 fpm"
       },
       "weights": {
-        "empty_weight": "1,505 LBS",
-        "fuel_capacity": "46 GAL",
-        "gross_weight": "2,500 LBS"
+        "empty_weight": "1,505 lbs",
+        "fuel_capacity": "46 gal",
+        "fuel_weight": "276 lbs",
+        "gross_weight": "2,500 lbs",
+        "payload_full_fuel": "719 lbs",
+        "useful_load": "995 lbs"
       },
       "ownership_costs": {},
       "engine": {
         "horsepower": "245 HP",
         "manufacturer": "Lycoming",
         "model": "IO-540-AE1A5",
-        "overhaul_ht": "1,800 Hrs",
+        "overhaul_ht": "1,800 hrs",
         "years_before_overhaul": "12"
       },
       "images": [
@@ -68368,24 +71246,28 @@
       "papi_price_estimate": null,
       "for_sale_count": "82",
       "performance": {
-        "best_cruise_speed": "110 KIAS",
-        "best_range_i": "350 NM",
-        "ceiling": "14,000 FT",
+        "best_cruise_speed": "110 kt",
+        "best_range_i": "350 nm",
+        "ceiling": "14,000 ft",
+        "fuel_burn": "23.1 gph",
         "fuel_burn_75": "23.1 GPH",
         "horsepower": "1 x None HP",
-        "rate_of_climb": "1,080 FPM"
+        "rate_of_climb": "1,080 fpm"
       },
       "weights": {
-        "empty_weight": "1,290 LBS",
-        "fuel_capacity": "73 GAL",
-        "gross_weight": "2,700 LBS"
+        "empty_weight": "1,290 lbs",
+        "fuel_capacity": "73 gal",
+        "fuel_weight": "438 lbs",
+        "gross_weight": "2,700 lbs",
+        "payload_full_fuel": "972 lbs",
+        "useful_load": "1,410 lbs"
       },
       "ownership_costs": {},
       "engine": {
         "horsepower": "None HP",
         "manufacturer": "Rolls Royce",
         "model": "RR300",
-        "overhaul_ht": "3,500 Hrs"
+        "overhaul_ht": "3,500 hrs"
       },
       "images": [
         {
@@ -68911,6 +71793,26 @@
       ]
     }
   },
+  "STINSON": {
+    "108-1 (1946 - 1950)": {
+      "manufacturer_name": "STINSON",
+      "aircraft_name": "108-1 (1946 - 1950)",
+      "source_link": "/wizard/details/992/STINSON-108-1-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/992/STINSON-108-1-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "100 kt",
+        "fuel_burn": "5 gph"
+      },
+      "weights": {},
+      "ownership_costs": {},
+      "engine": {},
+      "images": []
+    }
+  },
   "SUPERMARINE": {
     "SEAFIRE MK IV (1943 - 1949)": {
       "manufacturer_name": "SUPERMARINE",
@@ -68977,6 +71879,60 @@
     }
   },
   "TECNAM": {
+    "ASTORE (2013 - present)": {
+      "manufacturer_name": "TECNAM",
+      "aircraft_name": "ASTORE (2013 - present)",
+      "source_link": "/wizard/details/993/TECNAM-ASTORE-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/993/TECNAM-ASTORE-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "100 kt",
+        "fuel_burn": "5 gph"
+      },
+      "weights": {},
+      "ownership_costs": {},
+      "engine": {},
+      "images": []
+    },
+    "P2002 (2003 - present)": {
+      "manufacturer_name": "TECNAM",
+      "aircraft_name": "P2002 (2003 - present)",
+      "source_link": "/wizard/details/994/TECNAM-P2002-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/994/TECNAM-P2002-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "100 kt",
+        "fuel_burn": "5 gph"
+      },
+      "weights": {},
+      "ownership_costs": {},
+      "engine": {},
+      "images": []
+    },
+    "P2004 (2003 - present)": {
+      "manufacturer_name": "TECNAM",
+      "aircraft_name": "P2004 (2003 - present)",
+      "source_link": "/wizard/details/995/TECNAM-P2004-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/995/TECNAM-P2004-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "100 kt",
+        "fuel_burn": "5 gph"
+      },
+      "weights": {},
+      "ownership_costs": {},
+      "engine": {},
+      "images": []
+    },
     "P2006T (2009 - 2017)": {
       "manufacturer_name": "TECNAM",
       "aircraft_name": "P2006T (2009 - 2017)",
@@ -69051,6 +72007,42 @@
           "dimensions": "800x445"
         }
       ]
+    },
+    "P2008 (2009 - present)": {
+      "manufacturer_name": "TECNAM",
+      "aircraft_name": "P2008 (2009 - present)",
+      "source_link": "/wizard/details/996/TECNAM-P2008-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/996/TECNAM-P2008-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "100 kt",
+        "fuel_burn": "5 gph"
+      },
+      "weights": {},
+      "ownership_costs": {},
+      "engine": {},
+      "images": []
+    },
+    "P92 (1993 - present)": {
+      "manufacturer_name": "TECNAM",
+      "aircraft_name": "P92 (1993 - present)",
+      "source_link": "/wizard/details/997/TECNAM-P92-specifications-performance-operating-cost-valuation",
+      "page_url": "https://planephd.com/wizard/details/997/TECNAM-P92-specifications-performance-operating-cost-valuation",
+      "title": null,
+      "description": null,
+      "papi_price_estimate": null,
+      "for_sale_count": null,
+      "performance": {
+        "best_cruise_speed": "100 kt",
+        "fuel_burn": "5 gph"
+      },
+      "weights": {},
+      "ownership_costs": {},
+      "engine": {},
+      "images": []
     }
   },
   "VULCANAIR": {
