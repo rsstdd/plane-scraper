@@ -10,12 +10,18 @@ use reqwest::{
 use std::{env, time::Duration};
 use tokio::time::sleep;
 
-const USER_AGENTS: &[&str] = &[
-  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
-  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
-  "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0",
-  "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1",
-];
+/// Identifies this crawler, with somewhere to complain to.
+///
+/// It used to rotate four spoofed desktop and mobile browser strings. That is
+/// not a neutral default: planephd.com/robots.txt refuses ten named agents by
+/// name -- ClaudeBot, GPTBot, CCBot, Google-Extended and others -- and allows
+/// `User-agent: *` on the specification detail pages this crawler reads.
+/// Claiming to be Chrome takes that choice away from the operator and evades a
+/// policy that, read honestly, permits the fetch. An identifying agent keeps
+/// the permission and gives them a way to withdraw it.
+///
+/// Override with `SCRAPER_USER_AGENT` and put a real contact address in it.
+const DEFAULT_USER_AGENT: &str = "plane-phd-scraper/0.1 (+https://github.com/rsstdd/plane-scraper)";
 
 #[derive(Clone)]
 pub struct Fetcher {
@@ -189,7 +195,7 @@ pub struct FetcherConfig {
 impl FetcherConfig {
   pub fn from_env() -> Self {
     Self {
-      user_agent: USER_AGENTS[rand::rng().random_range(0..USER_AGENTS.len())].to_string(),
+      user_agent: env::var("SCRAPER_USER_AGENT").unwrap_or_else(|_| DEFAULT_USER_AGENT.to_string()),
       timeout: Duration::from_secs(15),
       bearer_token: env::var("ACCESS_TOKEN").ok(),
       max_retries: 3,

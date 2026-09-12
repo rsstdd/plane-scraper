@@ -1,7 +1,9 @@
 use crate::spiders::Spider;
 use futures::stream::StreamExt;
+use serde::Serialize;
 use std::{
   collections::HashSet,
+  path::PathBuf,
   sync::{
     Arc,
     atomic::{AtomicUsize, Ordering},
@@ -9,22 +11,50 @@ use std::{
   time::Duration,
 };
 use tokio::{
-  sync::{Barrier, mpsc},
+  sync::{Barrier, Mutex, mpsc},
   time::sleep,
 };
+
+/// Where a URL was lost, so a reader can tell "the site refused us" from "we
+/// could not write the result".
+#[derive(Clone, Copy, Debug, Serialize)]
+#[serde(rename_all = "lowercase")]
+pub enum Stage {
+  Scrape,
+  Process,
+}
+
+#[derive(Clone, Debug, Serialize)]
+pub struct FailedUrl {
+  pub url: String,
+  pub stage: Stage,
+  pub error: String,
+}
+
+type Failures = Arc<Mutex<Vec<FailedUrl>>>;
 
 pub struct Crawler {
   delay: Duration,
   crawling_concurrency: usize,
   processing_concurrency: usize,
+  /// Where to write the URLs this run could not turn into records. Without it
+  /// "the run finished" and "the run finished having scraped everything" are
+  /// the same observation.
+  failures_path: PathBuf,
 }
 
 impl Crawler {
-  pub fn new(delay: Duration, crawling_concurrency: usize, processing_concurrency: usize) -> Self {
+  pub fn new(
+    delay: Duration,
+    crawling_concurrency: usize,
+    processing_concurrency: usize,
+    failures_path: PathBuf,
+  ) -> Self {
     Crawler {
       delay,
       crawling_concurrency,
       processing_concurrency,
+      failures_path,
     }
   }
 
@@ -35,6 +65,7 @@ impl Crawler {
     let processing_concurrency = self.processing_concurrency;
     let processing_queue_capacity = processing_concurrency * 10;
     let active_spiders = Arc::new(AtomicUsize::new(0));
+    let failures: Failures = Arc::new(Mutex::new(Vec::new()));
 
     let (urls_to_visit_tx, urls_to_visit_rx) = mpsc::channel(crawling_queue_capacity);
     let (items_tx, items_rx) = mpsc::channel(processing_queue_capacity);
@@ -51,6 +82,7 @@ impl Crawler {
       spider.clone(),
       items_rx,
       barrier.clone(),
+      failures.clone(),
     );
 
     self.launch_scrapers(
@@ -62,6 +94,7 @@ impl Crawler {
       active_spiders.clone(),
       self.delay,
       barrier.clone(),
+      failures.clone(),
     );
 
     loop {
@@ -95,6 +128,29 @@ impl Crawler {
 
     // and then we wait for the streams to complete
     barrier.wait().await;
+
+    self.write_failures(&failures).await;
+  }
+
+  /// Always written, empty array included: an absent file is ambiguous between
+  /// "nothing failed" and "the run died before it could say".
+  async fn write_failures(&self, failures: &Failures) {
+    let failures = failures.lock().await;
+    if !failures.is_empty() {
+      log::warn!(
+        "{} URL(s) produced no record; see {}",
+        failures.len(),
+        self.failures_path.display()
+      );
+    }
+    match serde_json::to_vec_pretty(&*failures) {
+      Ok(bytes) => {
+        if let Err(err) = tokio::fs::write(&self.failures_path, bytes).await {
+          log::error!("could not write {}: {err}", self.failures_path.display());
+        }
+      }
+      Err(err) => log::error!("could not serialise the failure list: {err}"),
+    }
   }
 
   fn launch_processors<T: Send + 'static>(
@@ -103,11 +159,26 @@ impl Crawler {
     spider: Arc<dyn Spider<Item = T>>,
     items: mpsc::Receiver<T>,
     barrier: Arc<Barrier>,
+    failures: Failures,
   ) {
     tokio::spawn(async move {
       tokio_stream::wrappers::ReceiverStream::new(items)
-        .for_each_concurrent(concurrency, |item| async {
-          let _ = spider.process(item).await;
+        .for_each_concurrent(concurrency, |item| {
+          let failures = Arc::clone(&failures);
+          let spider = Arc::clone(&spider);
+          async move {
+            // Discarding this result made a failed write to planes.json
+            // indistinguishable from a successful one: the run ended "clean"
+            // with records missing and nothing said which.
+            if let Err(err) = spider.process(item).await {
+              log::error!("failed to save a scraped item: {err}");
+              failures.lock().await.push(FailedUrl {
+                url: String::from("<item write>"),
+                stage: Stage::Process,
+                error: err.to_string(),
+              });
+            }
+          }
         })
         .await;
 
@@ -125,6 +196,7 @@ impl Crawler {
     active_spiders: Arc<AtomicUsize>,
     delay: Duration,
     barrier: Arc<Barrier>,
+    failures: Failures,
   ) {
     tokio::spawn(async move {
       tokio_stream::wrappers::ReceiverStream::new(urls_to_visit)
@@ -133,14 +205,22 @@ impl Crawler {
           async {
             active_spiders.fetch_add(1, Ordering::SeqCst);
             let mut urls = Vec::new();
-            let res = spider
-              .scrape(queued_url.clone())
-              .await
-              .map_err(|err| {
+            let res = match spider.scrape(queued_url.clone()).await {
+              Ok(res) => Some(res),
+              Err(err) => {
+                // Logged *and* recorded. Logging alone is why the cause of the
+                // 40 detail URLs that never produced a record is unrecoverable:
+                // the run is over, the output says nothing, and the next run has
+                // no worklist to start from.
                 log::error!("{}", err);
-                err
-              })
-              .ok();
+                failures.lock().await.push(FailedUrl {
+                  url: queued_url.clone(),
+                  stage: Stage::Scrape,
+                  error: err.to_string(),
+                });
+                None
+              }
+            };
 
             if let Some((items, new_urls)) = res {
               for item in items {

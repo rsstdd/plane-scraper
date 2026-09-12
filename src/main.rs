@@ -64,6 +64,10 @@ struct RunConfig {
   /// JSON file containing full aircraft detail records
   #[arg(long, default_value = "data/planes.json")]
   planes_file: PathBuf,
+
+  /// JSON file listing the URLs this run could not turn into a record
+  #[arg(long, default_value = "data/failures.json")]
+  failures_file: PathBuf,
 }
 
 #[tokio::main]
@@ -99,6 +103,7 @@ async fn run_spider(config: RunConfig) -> Result<()> {
     Duration::from_millis(config.delay_ms),
     config.crawl_concurrency,
     config.process_concurrency,
+    config.failures_file.clone(),
   );
 
   log::info!(

@@ -8,6 +8,39 @@ The scraper runs in three pipeline stages:
 2. Collect aircraft/model detail links for every manufacturer.
 3. Collect detailed aircraft specifications, performance data, ownership costs, engine data, and image metadata.
 
+## What this data may be used for
+
+Read this before running the scraper or doing anything with its output.
+
+**planephd.com/robots.txt** (retrieved 2026-09-12) allows `User-agent: *` on the
+specification detail pages this scraper reads, and disallows only `/signin`, `/signup`,
+`/password-reset`, `/profile`, `/pro-buyer/survey` and `/auth/`. It also carries
+`Content-Signal: search=yes, ai-train=no, use=reference`, an express reservation of rights
+under Article 4 of EU Directive 2019/790, and refuses ten named agents outright — Amazonbot,
+Applebot-Extended, Bytespider, CCBot, ClaudeBot, CloudflareBrowserRenderingCrawler,
+Google-Extended, GPTBot, meta-externalagent and UbiCrawler. There is no `Crawl-delay`; the
+delay this scraper applies is its own courtesy.
+
+**planephd.com/terms** (updated 2023-06-11) is considerably narrower than robots.txt. It
+states that the data "remains the sole and exclusive property of Planephd" and may not be
+used "except as expressly allowed in the current strategic vendor or client agreement in
+force", that a recipient "may not incorporate Planephd data into another list or database,
+use it to compile, verify, edit, enhance, update, or publish another information source,
+distribute any portion of it, or reproduce it in any format", that use is monitored with
+decoy entries, and that violations carry liquidated damages of USD 10,000 per incident.
+
+No vendor or client agreement is on file for this repository. Fetching a page robots.txt
+permits is not the same as being licensed to redistribute what it contains: treat the
+output as reference-only evidence, keep it local, and do not republish it.
+
+The scraper identifies itself — `plane-phd-scraper/0.1 (+…)`, overridable with
+`SCRAPER_USER_AGENT` — rather than rotating spoofed browser strings, so the operator can
+apply their own policy and withdraw permission. Put a real contact address in it before
+running at any volume.
+
+This repository carries no `LICENSE` file. That is a separate decision about the *code* and
+is unresolved.
+
 ## Project Status
 
 This project is being resurrected and modernized.
